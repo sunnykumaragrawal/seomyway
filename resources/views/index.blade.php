@@ -30,7 +30,7 @@ seo company,
       </div>
       <div class="row">
         <div class="col-lg-3 about-img">
-          <img src="{{asset('assets/img/sunny.png')}}" class="img-fluid">
+          <img src="{{asset('assets/img/sunny.png')}}" class="img-fluid" alt="Sunny Agrawal">
         </div>
         <div class="col-lg-6 about-content">
           <h3>Hey, I am Sunny</h3>
@@ -53,7 +53,7 @@ seo company,
       <div class="whyus-carousel owl-theme">
         <div class="whyus-block">
           <div class="whyus-item">
-            <div class="whyus-icon"><img src="{{asset('assets/img/whyus/passionate.png')}}" class="img-fluid"></div>
+            <div class="whyus-icon"><img src="{{asset('assets/img/whyus/passionate.png')}}" class="img-fluid" alt="Passionate"></div>
             <div class="whyus-content">
               <h5>Passionate</h5>
               <p></p>
@@ -62,7 +62,7 @@ seo company,
         </div>
         <div class="whyus-block">
           <div class="whyus-item">
-            <div class="whyus-icon"><img src="{{asset('assets/img/whyus/experience.png')}}" class="img-fluid"></div>
+            <div class="whyus-icon"><img src="{{asset('assets/img/whyus/experience.png')}}" class="img-fluid" alt="Experience"></div>
             <div class="whyus-content">
               <h5>Experience</h5>
               <p></p>
@@ -81,7 +81,7 @@ seo company,
         <div class="col-lg-6 col-md-6">
           <div class="service-item">
             <div class="service-icon">
-              <img src="{{asset('assets/img/service/content-writing.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/service/content-writing.png')}}" alt="Seo Content Writing" class="img-fluid">
             </div>
             <div class="service-content">
               <h3>Seo Content Writing</h3>
@@ -92,7 +92,7 @@ seo company,
         <div class="col-lg-6 col-md-6">
           <div class="service-item">
             <div class="service-icon">
-              <img src="{{asset('assets/img/service/site-optimization.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/service/site-optimization.png')}}" alt="Site Optimization" class="img-fluid">
             </div>
             <div class="service-content">
               <h3>Site Optimization</h3>
@@ -103,7 +103,7 @@ seo company,
         <div class="col-lg-6 col-md-6">
           <div class="service-item">
             <div class="service-icon">
-              <img src="{{asset('assets/img/service/backlink.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/service/backlink.png')}}" alt="Link Building" class="img-fluid">
             </div>
             <div class="service-content">
               <h3>Link Building</h3>
@@ -114,7 +114,7 @@ seo company,
         <div class="col-lg-6 col-md-6">
           <div class="service-item">
             <div class="service-icon">
-              <img src="{{asset('assets/img/service/mobile-friendly.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/service/mobile-friendly.png')}}" alt="Seo Mobile Friendly" class="img-fluid">
             </div>
             <div class="service-content">
               <h3>Seo Mobile Friendly</h3>
@@ -138,32 +138,32 @@ seo company,
       <div class="section-title">
         <h2>Seo <img src="{{asset('assets/img/nav/blog.png')}}" class="img-fluid"> <span>News</span></h2>  
       </div>
-      <div class="row">
-        <div class="col-lg-4 entries">
-          <article class="entry entry-single">
-            <div class="entry-img">
-              <a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/top 4 seo ranking factors.png')}}" alt="" class="img-fluid"></a>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 entries">
+              <article class="entry entry-single">
+                <div class="entry-img">
+                  <a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid"></a>
+                </div>
+                <h2 class="entry-title"><a href="{{route('blog.seorankingfactors')}}">Most important seo ranking factors</a></h2>
+              </article>
             </div>
-            <h2 class="entry-title"><a href="{{route('blog.seorankingfactors')}}">Most important seo ranking factors</a></h2>
-          </article>
-        </div>
-        <div class="col-lg-4 entries">
-          <article class="entry entry-single">
-            <div class="entry-img">
-              <a href="{{route('blog.tipswritetitle')}}"><img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="" class="img-fluid"></a>
+                  <div class="col-lg-4 col-md-6 entries">
+                    <article class="entry entry-single">
+                      <div class="entry-img">
+                        <a href="{{route('keyword.freetools')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-research-tools.png')}}" alt="keyword research tools" class="img-fluid"></a>
+                      </div>
+                      <h2 class="entry-title"><a href="{{route('keyword.freetools')}}">Free tools for keyword research In Seo</a></h2>
+                    </article>
+                  </div>
+            <div class="col-lg-4 col-md-6 entries">
+              <article class="entry entry-single">
+                <div class="entry-img">
+                  <a href="{{route('blog.tipswritetitle')}}"><img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="tips for writing title tag" class="img-fluid"></a>
+                </div>
+                <h2 class="entry-title"><a href="{{route('blog.tipswritetitle')}}">Tips for writing good title tag</a></h2>
+              </article>
             </div>
-            <h2 class="entry-title"><a href="{{route('blog.tipswritetitle')}}">Tips for writing good title tag</a></h2>
-          </article>
-        </div>
-        <div class="col-lg-4 entries">
-          <article class="entry entry-single">
-            <div class="entry-img">
-              <a href="{{route('blog.commonmistakeseotitle')}}"><img src="{{asset('assets/img/blog/thumbnail/Common mistakes while writing title tag.png')}}" alt="" class="img-fluid"></a>
-            </div>
-            <h2 class="entry-title"><a href="{{route('blog.commonmistakeseotitle')}}">Common Mistake while writing seo title tag</a></h2>
-          </article>
-        </div>
-      </div>
+          </div>
     </div>
   </section>
   <section id="contact" class="contact">
@@ -175,7 +175,7 @@ seo company,
         <div class="col-md-6">
           <div class="contact-item">
             <div class="contact-icon">
-              <img src="{{asset('assets/img/contact/icon1.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/contact/icon1.png')}}" alt="Email" class="img-fluid">
             </div>
             <div class="contact-content">
               <h3>Email</h3>
@@ -186,7 +186,7 @@ seo company,
         <div class="col-md-6">
           <div class="contact-item">
             <div class="contact-icon">
-              <img src="{{asset('assets/img/contact/icon2.png')}}" class="img-fluid">
+              <img src="{{asset('assets/img/contact/icon2.png')}}" alt="Phone" class="img-fluid">
             </div>
             <div class="contact-content">
               <h3>Phone</h3>

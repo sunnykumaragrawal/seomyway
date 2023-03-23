@@ -516,9 +516,24 @@ section{
   margin-bottom: 25px;
 }
 
+.single-blogs-steps{
+}
+
 .single-blogs-steps p{
   font-size: 21px;
   line-height: 31px;
+}
+
+.single-blogs-steps .visit-link{
+  padding-bottom: 60px;
+  padding-top: 15px;
+}
+
+.single-blogs-steps .visit-link a{
+  background-color: green;
+  color: #fff;
+  padding: 14px 30px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------

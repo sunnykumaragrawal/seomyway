@@ -23,7 +23,7 @@ title tag,
               <h1>Common mistake while writing seo title tag</h1>
             </div>
             <div class="single-blog-img">
-  				    <img src="{{asset('assets/img/blog/thumbnail/Common mistakes while writing title tag.png')}}" alt="tips for writing seo title tag" class="img-fluid">
+  				    <img src="{{asset('assets/img/blog/thumbnail/common-mistakes-in-title-tag.png')}}" alt="Common mistakes in title tag" class="img-fluid">
   				  </div>
   				  <div class="single-blog-content">
               <h3></h3>

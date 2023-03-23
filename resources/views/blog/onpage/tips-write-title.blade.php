@@ -22,7 +22,7 @@ seo title tag,
               <h1>6 Tips for writing & optimizing seo title tag</h1>
             </div>
             <div class="single-blog-img">
-  				    <img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="tips for writing seo title tag" class="img-fluid">
+  				    <img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="tips for writing title tag" class="img-fluid">
   				  </div>
   				  <div class="single-blog-content">
               <h3>What is Title Tag?</h3>

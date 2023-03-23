@@ -25,6 +25,10 @@ Route::get('/blog/seo-ranking-factors', function () {
     return view('blog.basic.seorankingfactors');
 })->name('blog.seorankingfactors');
 
+Route::get('/blog/free-keyword-research-tools', function () {
+    return view('blog.keyword.freetools');
+})->name('keyword.freetools');
+
 Route::get('/blog/tips-for-writing-title-tag', function () {
     return view('blog.onpage.tips-write-title');
 })->name('blog.tipswritetitle');

@@ -20,15 +20,23 @@ seo blogs,
   			<div class="col-md-6 entries">
           <article class="entry entry-single">
             <div class="entry-img">
-              <a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/top 4 seo ranking factors.png')}}" alt="" class="img-fluid"></a>
+              <a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid"></a>
             </div>
             <h2 class="entry-title"><a href="{{route('blog.seorankingfactors')}}">Most important seo ranking factors</a></h2>
           </article>
         </div>
+              <div class="col-md-6 entries">
+                <article class="entry entry-single">
+                  <div class="entry-img">
+                    <a href="{{route('keyword.freetools')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-research-tools.png')}}" alt="keyword research tools" class="img-fluid"></a>
+                  </div>
+                  <h2 class="entry-title"><a href="{{route('keyword.freetools')}}">Free tools for keyword research In Seo</a></h2>
+                </article>
+              </div>
         <div class="col-md-6 entries">
           <article class="entry entry-single">
             <div class="entry-img">
-              <a href="{{route('blog.tipswritetitle')}}"><img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="" class="img-fluid"></a>
+              <a href="{{route('blog.tipswritetitle')}}"><img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="tips for writing title tag" class="img-fluid"></a>
             </div>
             <h2 class="entry-title"><a href="{{route('blog.tipswritetitle')}}">Tips for writing good title tag</a></h2>
           </article>
@@ -36,7 +44,7 @@ seo blogs,
         <div class="col-md-6 entries">
           <article class="entry entry-single">
             <div class="entry-img">
-              <a href="{{route('blog.commonmistakeseotitle')}}"><img src="{{asset('assets/img/blog/thumbnail/Common mistakes while writing title tag.png')}}" alt="" class="img-fluid"></a>
+              <a href="{{route('blog.commonmistakeseotitle')}}"><img src="{{asset('assets/img/blog/thumbnail/common-mistakes-in-title-tag.png')}}" alt="Common mistakes in title tag" class="img-fluid"></a>
             </div>
             <h2 class="entry-title"><a href="{{route('blog.commonmistakeseotitle')}}">Common Mistake while writing seo title tag</a></h2>
           </article>

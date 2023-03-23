@@ -21,7 +21,7 @@ seo ranking factor,
               <h1>Top 4 seo ranking factors that can affect 80% of your ranking</h1>
             </div>
             <div class="single-blog-img">
-              <img src="{{asset('assets/img/blog/thumbnail/top 4 seo ranking factors.png')}}" alt="tips for writing seo title tag" class="img-fluid">
+              <img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid">
             </div>
             <div class="single-blog-content">
               <h3>What is SEO?</h3>
