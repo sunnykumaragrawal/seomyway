@@ -22,7 +22,7 @@ seo company,
     </div>
   </div>
 </section>
-<main>
+<main class="section-bg">
   <section id="about" class="about">
     <div class="container">
       <div class="section-title d-none">
@@ -133,37 +133,48 @@ seo company,
       <div class="row"></div>
     </div>
   </section>
-  <section class="blog-main pb-0">
+  <section class="allblogs pb-0">
     <div class="container">
       <div class="section-title">
-        <h2>Seo <img src="{{asset('assets/img/nav/blog.png')}}" class="img-fluid"> <span>News</span></h2>  
+        <h2>Seo <img src="{{asset('assets/img/nav/blog.png')}}" class="img-fluid"> <span>Blogs</span></h2>  
       </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 entries">
-              <article class="entry entry-single">
-                <div class="entry-img">
-                  <a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid"></a>
-                </div>
-                <h2 class="entry-title"><a href="{{route('blog.seorankingfactors')}}">Most important seo ranking factors</a></h2>
-              </article>
-            </div>
-                  <div class="col-lg-4 col-md-6 entries">
-                    <article class="entry entry-single">
-                      <div class="entry-img">
-                        <a href="{{route('keyword.freetools')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-research-tools.png')}}" alt="keyword research tools" class="img-fluid"></a>
-                      </div>
-                      <h2 class="entry-title"><a href="{{route('keyword.freetools')}}">Free tools for keyword research In Seo</a></h2>
-                    </article>
-                  </div>
-            <div class="col-lg-4 col-md-6 entries">
-              <article class="entry entry-single">
-                <div class="entry-img">
-                  <a href="{{route('blog.tipswritetitle')}}"><img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="tips for writing title tag" class="img-fluid"></a>
-                </div>
-                <h2 class="entry-title"><a href="{{route('blog.tipswritetitle')}}">Tips for writing good title tag</a></h2>
-              </article>
-            </div>
-          </div>
+      <div class="row allblogs-carousel owl-carousel">
+        <div class="allblogs-item">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid"></a></div>
+            <h3 class="allblogs-title"><a href="{{route('blog.seorankingfactors')}}">Most important seo ranking factors</a></h3>
+            <div class="allblogs-btn"><a href="{{route('blog.seorankingfactors')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="allblogs-item">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('keyword.freetools')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-research-tools.png')}}" alt="keyword research tools" class="img-fluid"></a></div>
+            <h3 class="allblogs-title"><a href="{{route('keyword.freetools')}}">Free tools for keyword research In Seo</a></h3>
+            <div class="allblogs-btn"><a href="{{route('keyword.freetools')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="allblogs-item">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('keyword.researchsteps')}}"><img src="{{asset('assets/img/blog/thumbnail/hoe-to-do-keyword-research.png')}}" alt="How to do keyword research in seo" class="img-fluid"></a></div>
+            <h3 class="allblogs-title"><a href="{{route('keyword.researchsteps')}}">How to do keyword research In Seo</a></h3>
+            <div class="allblogs-btn"><a href="{{route('keyword.researchsteps')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="allblogs-item">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.tipswritetitle')}}"><img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="tips for writing title tag" class="img-fluid"></a></div>
+            <h3 class="allblogs-title"><a href="{{route('blog.tipswritetitle')}}">Tips for writing good title tag</a></h3>
+            <div class="allblogs-btn"><a href="{{route('blog.tipswritetitle')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="allblogs-item">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.commonmistakeseotitle')}}"><img src="{{asset('assets/img/blog/thumbnail/common-mistakes-in-title-tag.png')}}" alt="Common mistakes in title tag" class="img-fluid"></a></div>
+            <h3 class="allblogs-title"><a href="{{route('blog.commonmistakeseotitle')}}">Common Mistake while writing seo title tag</a></h3>
+            <div class="allblogs-btn"><a href="{{route('blog.commonmistakeseotitle')}}">Read More</a></div>
+          </article>
+        </div>
+      </div>
     </div>
   </section>
   <section id="contact" class="contact">

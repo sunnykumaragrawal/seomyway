@@ -338,6 +338,7 @@ a:hover {
   background-color: #fff;
   padding: 40px 25px;
   text-align: center;
+  margin-bottom: 30px;
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.35);
 }
 
@@ -445,9 +446,44 @@ section{
 }
 
 /*--------------------------------------------------------------
+# Blog Filters
+--------------------------------------------------------------*/
+.allblogs #allblogs-flters {
+  padding: 0;
+  margin: 0 auto 30px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.allblogs #allblogs-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #691999;
+  background-color: #fff;
+  border: 1px solid #691999;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.allblogs #allblogs-flters li:hover, 
+.allblogs #allblogs-flters li.filter-active {
+  color: #fff;
+  background-color: #691999;
+}
+
+.allblogs #allblogs-flters li:last-child {
+  margin-right: 0;
+}
+
+/*--------------------------------------------------------------
 # All Blogs
 --------------------------------------------------------------*/
-.blog-main .entry {
+.allblogs .allblogs-block {
   padding: 20px;
   margin-bottom: 60px;
   overflow: hidden;
@@ -455,29 +491,38 @@ section{
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.35);
 }
 
-.blog-main .entry .entry-img {
+.allblogs .allblogs-block .allblogs-img {
   max-height: 400px;
   margin: -20px -20px 20px -20px;
   overflow: hidden;
 }
 
-.blog-main .entry .entry-title {
+.allblogs .allblogs-block .allblogs-title {
   font-size: 22px;
-  font-weight: 800;
+  font-weight: 700;
   padding: 0;
   margin: 0 0 20px 0;
 }
 
-.blog-main .entry .entry-title a {
+.allblogs .allblogs-block .allblogs-title a {
   transition: all 0.5s ease-in-out;
+  color: #000;
 }
 
-.blog-main .entry .entry-title a:hover {
-  color: #009FFF;
+.allblogs .allblogs-block .allblogs-title a:hover {
+  color: #000;
+}
+
+.allblogs .allblogs-block .allblogs-btn a{
+  text-transform: uppercase;
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  word-spacing: 4px;
 }
 
 @media(max-width: 767px){
-  .blog-main .entry {
+  .allblogs .allblogs-block {
     margin-bottom: 25px;
   }
 }

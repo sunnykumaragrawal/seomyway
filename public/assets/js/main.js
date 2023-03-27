@@ -124,6 +124,23 @@
     zIndex: '50'
   });
 
+  // Porfolio isotope and filter
+  $(window).on('load', function() {
+    var portfolioIsotope = $('.allblogs-container').isotope({
+      itemSelector: '.allblogs-item'
+    });
+
+    $('#allblogs-flters li').on('click', function() {
+      $("#allblogs-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+
+      portfolioIsotope.isotope({
+        filter: $(this).data('filter')
+      });
+    });
+
+  });
+
   // why us carousel (uses the Owl Carousel library)
   $('.whyus-carousel').owlCarousel({
     autoplay: true,
@@ -143,6 +160,28 @@
       900: {
         center: true,
         items: 2
+      }
+    }
+  });
+
+  // All Blogs carousel (uses the Owl Carousel library)
+  $('.allblogs-carousel').owlCarousel({
+    autoplay: true,
+    loop: true,
+    margin: 25,
+    dots: false,
+    nav: false,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      900: {
+        items: 3
       }
     }
   });
