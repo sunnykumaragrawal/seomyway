@@ -17,7 +17,7 @@ seo blogs,
   <section class="allblogs">
   	<div class="container">
       <div class="row">
-        <div class="col-md-12 d-none">
+        <div class="col-md-12 d-flex">
           <ul id="allblogs-flters">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-keyword">Keyword Research</li>
@@ -62,7 +62,21 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('blog.commonmistakeseotitle')}}">Read More</a></div>
           </article>
         </div>
-      </div>
+        <div class="col-md-6 allblogs-item filter-keyword">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('tool.googlekeywordplanner')}}"><img src="{{asset('assets/img/blog/thumbnail/google-keyword-planner.png')}}" alt="How to use google keyword planner" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('tool.googlekeywordplanner')}}">How to use Google Keyword Planner</a></h2>
+            <div class="allblogs-btn"><a href="{{route('tool.googlekeywordplanner')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="col-md-6 allblogs-item filter-keyword">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('tool.keywordtoolio')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-tool.io.png')}}" alt="How to use keyword tool.io" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('tool.keywordtoolio')}}">How to use Keyword tool.io</a></h2>
+            <div class="allblogs-btn"><a href="{{route('tool.keywordtoolio')}}">Read More</a></div>
+          </article>
+        </div>
+  		</div>
   	</div>
   </section>
 </main>

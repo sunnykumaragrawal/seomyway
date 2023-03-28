@@ -538,35 +538,48 @@ section{
 }
 
 .single-blog1 .single-blog-item .single-blog-title h1{
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
 .single-blog-content{
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .single-blog-content h3{
   font-weight: 700;
+  font-size: 32px;
 }
 
 .single-blog-content p{
-  font-size: 21px;
-  line-height: 31px;
+  font-size: 24px;
+}
+
+.single-blog-content .sbc-list{
+  padding-left: 15px;
+}
+
+.single-blog-content .sbc-list li{
+  font-size: 24px;
 }
 
 .single-blog-points h3{
   font-weight: 700;
+  font-size: 32px;
   margin-bottom: 25px;
+  text-decoration: underline;
 }
 
 .single-blogs-steps{
 }
 
 .single-blogs-steps p{
-  font-size: 21px;
-  line-height: 31px;
+  font-size: 24px;
+}
+
+.single-blogs-steps .sbs-img{
+  border: 2px solid #691999;
 }
 
 .single-blogs-steps .visit-link{

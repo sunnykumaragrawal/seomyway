@@ -31,7 +31,7 @@ seo title tag,
             <div class="single-blog-content">
               <h3>Where It Appears?</h3>
               <p>A title tag show in mainly two places:
-              <ul>
+              <ul class="sbc-list">
                 <li>1. Search engine use our webpage title as blue clickable link in serps where user can click on it and can visit to your website.</li>
                 <li>2. In the brower tab when user have multiple tabs opened in brower it helps to navigate there.</li>
               </ul>

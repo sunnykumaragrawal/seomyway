@@ -29,6 +29,14 @@ Route::get('/blog/free-keyword-research-tools', function () {
     return view('blog.keyword.freetools');
 })->name('keyword.freetools');
 
+Route::get('/blog/how-to-use-google-keyword-planner', function () {
+    return view('blog.keyword.tool.googlekeywordplanner');
+})->name('tool.googlekeywordplanner');
+
+Route::get('/blog/how-to-use-keyword-tool.io', function () {
+    return view('blog.keyword.tool.keyword-tool-io');
+})->name('tool.keywordtoolio');
+
 Route::get('/blog/how-to-do-keyword-research', function () {
     return view('blog.keyword.how-to-do-keyword-research');
 })->name('keyword.researchsteps');

@@ -30,6 +30,9 @@
               <h3></h3>
               <div class="single-blogs-steps">
                 <p><b></b> </p>
+                <div class="sbs-img">
+                  <img src="{{asset('assets/img/blog/')}}" class="img-fluid">
+                </div>
                 <div class="visit-link"><a href="" target="_blank"></a></div>
               </div>
             </div>
