@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-Google Keyword Planner : How to use for free
+Google Keyword Planner : The Complete Guide
 @stop
 
 @section('meta_desc')
@@ -21,7 +21,7 @@ google keyword planner,
         <div class="col-md-10">
           <article class="single-blog-item">
             <div class="single-blog-title">
-              <h1>How to use Google keyword planner for Seo</h1>
+              <h1>How to use Google keyword planner for Seo - The Google tool for keyword research</h1>
             </div>
             <div class="single-blog-img">
               <img src="{{asset('assets/img/blog/thumbnail/google-keyword-planner.png')}}" alt="How to use google keyword planner" class="img-fluid">

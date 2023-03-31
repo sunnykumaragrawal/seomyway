@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-Keyword tool io - How to use for free
+Keyword tool io - The Complete Guide
 @stop
 
 @section('meta_desc')
@@ -21,7 +21,7 @@ keyword tool io,
         <div class="col-md-10">
           <article class="single-blog-item">
             <div class="single-blog-title">
-              <h1>How to use Keyword Tool.io for free</h1>
+              <h1>How to use Keyword Tool.io for free - The Complete Guide</h1>
             </div>
             <div class="single-blog-img">
               <img src="{{asset('assets/img/blog/thumbnail/keyword-tool.io.png')}}" alt="How to use keyword tool.io" class="img-fluid">

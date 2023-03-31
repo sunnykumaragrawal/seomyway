@@ -76,6 +76,20 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('tool.keywordtoolio')}}">Read More</a></div>
           </article>
         </div>
+        <div class="col-md-6 allblogs-item filter-keyword">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('tool.keywordeverywhere')}}"><img src="{{asset('assets/img/blog/thumbnail/keywod-everywhere.png')}}" alt="How to use keyword Everywhere" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('tool.keywordeverywhere')}}">How to use Keyword Everywhere</a></h2>
+            <div class="allblogs-btn"><a href="{{route('tool.keywordeverywhere')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="col-md-6 allblogs-item filter-keyword">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('tool.keywordsheeter')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-sheeter.png')}}" alt="How to use keyword Sheeter" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('tool.keywordsheeter')}}">How to use Keyword Sheeter</a></h2>
+            <div class="allblogs-btn"><a href="{{route('tool.keywordsheeter')}}">Read More</a></div>
+          </article>
+        </div>
   		</div>
   	</div>
   </section>

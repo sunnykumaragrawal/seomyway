@@ -37,6 +37,14 @@ Route::get('/blog/how-to-use-keyword-tool.io', function () {
     return view('blog.keyword.tool.keyword-tool-io');
 })->name('tool.keywordtoolio');
 
+Route::get('/blog/how-to-use-keyword-everywhere', function () {
+    return view('blog.keyword.tool.keywordeverywhere');
+})->name('tool.keywordeverywhere');
+
+Route::get('/blog/how-to-use-keyword-sheeter', function () {
+    return view('blog.keyword.tool.keywordsheeter');
+})->name('tool.keywordsheeter');
+
 Route::get('/blog/how-to-do-keyword-research', function () {
     return view('blog.keyword.how-to-do-keyword-research');
 })->name('keyword.researchsteps');
