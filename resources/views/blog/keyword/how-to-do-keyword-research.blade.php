@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-How to do keyword research
+How to do keyword research - Perfect 3 steps
 @stop
 
 @section('meta_desc')
@@ -9,8 +9,11 @@ In this blog we have explained the perfect 3 steps for keyword research in seo. 
 @stop
 
 @section('meta_keywords')
+what is keyword in seo,
+what is keyword research in seo,
+seo keyword research,
+how to find keywords,
 how to do keyword research,
-how to find right keywords,
 @stop
 
 @section('content')
@@ -21,13 +24,13 @@ how to find right keywords,
         <div class="col-md-10">
           <article class="single-blog-item">
             <div class="single-blog-title">
-              <h1>How to do keyword research in seo to rank on google</h1>
+              <h1>How to do keyword research in seo - Seo keyword research</h1>
             </div>
             <div class="single-blog-img">
               <img src="{{asset('assets/img/blog/thumbnail/hoe-to-do-keyword-research.png')}}" alt="How to do keyword research in seo" class="img-fluid">
             </div>
             <div class="single-blog-content">
-              <h3>What is a keyword in seo?</h3>
+              <h3>what is keyword in seo?</h3>
               <p>A keyword is a word, phrase or sentence that people use to search in search engine.</p>
             </div>
             <div class="single-blog-content">
@@ -35,11 +38,11 @@ how to find right keywords,
               <p>Keyword research is the process of finding keywords that people can use and reach to your website.</p>
             </div>
             <div class="single-blog-content">
-              <h3>How to do keyword research?</h3>
+              <h3>what is keyword research in seo?</h3>
               <p>Keyword research is the foundation of your seo. So it should be done in the perfect way. In this guide I will explain the most effective way to do keyword research. </p>
             </div>
             <div class="single-blog-points">
-              <h3>3 Steps to find right Keywords:</h3>
+              <h3>3 Steps for how to find Keywords:</h3>
               <div class="single-blogs-steps">
                 <p><b>1. Finding the keywords:</b> The first step is to make a list of keywords that people can use to reach to your website. In this step you can use keyword tools like(Google keyword planner , keyword tool.io or may be another tools) to generate keyword ideas.<br>For example: If you have website which offer digital marketing services. You can use this term "digital marketing services" to generate keyword ideas.</p>
               </div>

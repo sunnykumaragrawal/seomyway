@@ -7,7 +7,15 @@ Confirmed 4 seo ranking factors @stop
 There are so many ranking factors in seo, but these 4 seo ranking factors can impact 80% of your ranking. @stop
 
 @section('meta_keywords')
-seo ranking factor,
+seo factors,
+ranking factors in seo,
+ranking factors,
+other factors to rank the website higher are,
+which of the following affects seo rankings,
+which of the following affect seo rankings,
+which of the following affect seo ranking,
+which choice is a ranking factor,
+top seo factors,
 @stop
 
 @section('content')

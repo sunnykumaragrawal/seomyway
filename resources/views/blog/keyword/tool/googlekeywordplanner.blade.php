@@ -9,8 +9,17 @@ Google keyword planner is a free tool by google for keyword research. In this yo
 @stop
 
 @section('meta_keywords')
+keyword planner tool,
+keyword planner google ads,
+keyword planner free,
+keyword planner,
+google planner,
+google keyword tool,
+google keyword planner tool,
+google keyword planner free,
+google adwords keyword tool,
+google ads keyword planner,
 how to use google keyword planner,
-google keyword planner,
 @stop
 
 @section('content')

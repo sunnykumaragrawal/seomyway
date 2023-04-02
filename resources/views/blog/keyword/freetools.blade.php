@@ -1,14 +1,18 @@
 @extends('base')
 
 @section('title')
-Free keywords research tool in seo @stop
+Free tool for keyword research - keyword tool by google @stop
 
 @section('meta_desc')
 In this article I have mentioned free keywords research tools for you. You can easily use them. @stop
 
 @section('meta_keywords')
-free keyword research tool,
+keyword tool,
 keyword research tool,
+free tool for keyword research,
+free keyword tool,
+free keyword research tool,
+best keyword research tool,
 @stop
 
 @section('content')
