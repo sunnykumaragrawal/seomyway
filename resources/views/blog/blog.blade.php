@@ -21,7 +21,7 @@ seo blogs,
           <ul id="allblogs-flters">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-keyword">Keyword Research</li>
-            <li data-filter=".filter-title">Title Tag</li>
+            <li data-filter=".filter-title">Title Tag & Meta tags</li>
             <li data-filter=".filter-ranking">Ranking Factors</li>
           </ul>
         </div>
@@ -60,6 +60,13 @@ seo blogs,
             <div class="allblogs-img"><a href="{{route('blog.commonmistakeseotitle')}}"><img src="{{asset('assets/img/blog/thumbnail/common-mistakes-in-title-tag.png')}}" alt="Common mistakes in title tag" class="img-fluid"></a></div>
             <h2 class="allblogs-title"><a href="{{route('blog.commonmistakeseotitle')}}">Common Mistake while writing seo title tag</a></h2>
             <div class="allblogs-btn"><a href="{{route('blog.commonmistakeseotitle')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="col-md-6 allblogs-item filter-title">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.metatags')}}"><img src="{{asset('assets/img/blog/thumbnail/meta-tags.png')}}" alt="Meta tags for seo" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('blog.metatags')}}">What are meta tags in seo</a></h2>
+            <div class="allblogs-btn"><a href="{{route('blog.metatags')}}">Read More</a></div>
           </article>
         </div>
         <div class="col-md-6 allblogs-item filter-keyword">

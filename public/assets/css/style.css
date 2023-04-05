@@ -594,6 +594,14 @@ section{
   font-size: 18px;
 }
 
+@media(max-width: 767px){
+  .single-blogs-steps .visit-link a{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

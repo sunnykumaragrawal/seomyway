@@ -25,9 +25,6 @@ seo company,
 <main class="section-bg">
   <section id="about" class="about">
     <div class="container">
-      <div class="section-title d-none">
-        <h2>About <img src="{{asset('assets/img/nav/about.png')}}" class="img-fluid"> <span>Me</span></h2>  
-      </div>
       <div class="row">
         <div class="col-lg-3 about-img">
           <img src="{{asset('assets/img/sunny.png')}}" class="img-fluid" alt="Sunny Agrawal">
@@ -47,7 +44,7 @@ seo company,
   <section id="whyus" class="whyus">
     <div class="container">
       <div class="section-title">
-        <h2>Why <img src="{{asset('assets/img/nav/about.png')}}" class="img-fluid"> <span>Us</span></h2>  
+        <h2>Why Us</h2>  
       </div>
 
       <div class="whyus-carousel owl-theme">
@@ -75,7 +72,7 @@ seo company,
   <section id="services" class="services">
     <div class="container">
       <div class="section-title">
-        <h2>Seo <img src="{{asset('assets/img/nav/service.png')}}" class="img-fluid"> <span>Services</span></h2>  
+        <h2>Seo Services</h2>  
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6">
@@ -125,18 +122,10 @@ seo company,
       </div>
     </div>
   </section>
-  <section id="pricing" class="pricing d-none">
-    <div class="container">
-      <div class="section-title">
-        <h2>Best <img src="{{asset('assets/img/nav/about.png')}}" class="img-fluid"> <span>Pricing</span></h2>  
-      </div>
-      <div class="row"></div>
-    </div>
-  </section>
   <section class="allblogs pb-0">
     <div class="container">
       <div class="section-title">
-        <h2>Seo <img src="{{asset('assets/img/nav/blog.png')}}" class="img-fluid"> <span>Blogs</span></h2>  
+        <h2>Seo Blogs</h2>  
       </div>
       <div class="row allblogs-carousel owl-carousel">
         <div class="allblogs-item">
@@ -180,7 +169,7 @@ seo company,
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-title">
-        <h2>Contact <img src="{{asset('assets/img/nav/contact.png')}}" class="img-fluid"> <span>Us</span></h2>  
+        <h2>Contact Us</h2>  
       </div>
       <div class="row">
         <div class="col-md-6">

@@ -56,3 +56,7 @@ Route::get('/blog/tips-for-writing-title-tag', function () {
 Route::get('/blog/common-mistakes-in-title-tag', function () {
     return view('blog.onpage.common-mistake-while-writing-title-tag-seo');
 })->name('blog.commonmistakeseotitle');
+
+Route::get('/blog/meta-tags-for-seo', function () {
+    return view('blog.metatags.metatags');
+})->name('blog.metatags');

@@ -43,7 +43,7 @@
   <footer id="footer" data-aos="flip-down" data-aos-delay="100">
     <div class="container">
       <div class="copyright">
-        Created By: Sunny Agrawal
+        Created By:  <a href="https://sunnyagrawal.in/">Sunny Agrawal</a>
       </div>
     </div>
   </footer><!-- End Footer -->
