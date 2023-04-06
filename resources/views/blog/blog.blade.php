@@ -69,6 +69,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('blog.metatags')}}">Read More</a></div>
           </article>
         </div>
+        <div class="col-md-6 allblogs-item filter-title">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.metarobotstags')}}"><img src="{{asset('assets/img/blog/thumbnail/meta-robots-tag.png')}}" alt="Meta Robots tags" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('blog.metarobotstags')}}">What are meta robots tags in seo</a></h2>
+            <div class="allblogs-btn"><a href="{{route('blog.metarobotstags')}}">Read More</a></div>
+          </article>
+        </div>
         <div class="col-md-6 allblogs-item filter-keyword">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('tool.googlekeywordplanner')}}"><img src="{{asset('assets/img/blog/thumbnail/google-keyword-planner.png')}}" alt="How to use google keyword planner" class="img-fluid"></a></div>

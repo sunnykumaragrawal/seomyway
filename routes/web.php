@@ -60,3 +60,7 @@ Route::get('/blog/common-mistakes-in-title-tag', function () {
 Route::get('/blog/meta-tags-for-seo', function () {
     return view('blog.metatags.metatags');
 })->name('blog.metatags');
+
+Route::get('/blog/meta-robots-tag', function () {
+    return view('blog.metatags.robotstags');
+})->name('blog.metarobotstags');
