@@ -53,6 +53,10 @@ Route::get('/blog/tips-for-writing-title-tag', function () {
     return view('blog.onpage.tips-write-title');
 })->name('blog.tipswritetitle');
 
+Route::get('/blog/web-page-speed-test', function () {
+    return view('blog.onpage.pagespeedtools');
+})->name('blog.pagespeedtools');
+
 Route::get('/blog/common-mistakes-in-title-tag', function () {
     return view('blog.onpage.common-mistake-while-writing-title-tag-seo');
 })->name('blog.commonmistakeseotitle');

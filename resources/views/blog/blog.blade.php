@@ -23,6 +23,7 @@ seo blogs,
             <li data-filter=".filter-keyword">Keyword Research</li>
             <li data-filter=".filter-title">Title Tag & Meta tags</li>
             <li data-filter=".filter-ranking">Ranking Factors</li>
+            <li data-filter=".filter-seotools">Seo Tools</li>
           </ul>
         </div>
       </div>
@@ -39,6 +40,13 @@ seo blogs,
             <div class="allblogs-img"><a href="{{route('keyword.freetools')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-research-tools.png')}}" alt="keyword research tools" class="img-fluid"></a></div>
             <h2 class="allblogs-title"><a href="{{route('keyword.freetools')}}">Free tools for keyword research In Seo</a></h2>
             <div class="allblogs-btn"><a href="{{route('keyword.freetools')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="col-md-6 allblogs-item filter-seotools">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.pagespeedtools')}}"><img src="{{asset('assets/img/blog/thumbnail/test-website-speed.png')}}" alt="Test your website speed with free tools" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('blog.pagespeedtools')}}">Free tools for testing website speed</a></h2>
+            <div class="allblogs-btn"><a href="{{route('blog.pagespeedtools')}}">Read More</a></div>
           </article>
         </div>
         <div class="col-md-6 allblogs-item filter-keyword">
