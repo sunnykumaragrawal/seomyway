@@ -197,5 +197,29 @@ seo company,
       </div>
     </div>
   </section>
+  <section class="socialmedia" id="socialmedia">
+    <div class="container">
+      <div class="section-title">
+        <h2>Let's start follow Me</h2>  
+      </div>
+      <div class="owl-carousel socialmedia-carousel">
+        <div class="social-block" data-aos="flip-down" data-aos-delay="100">
+          <a href="https://www.instagram.com/sunny_seomyway/" target="_blank"><img src="assets/img/social/instagram.png" class="img-fluid" alt=""></a>
+        </div>
+        <div class="social-block" data-aos="flip-down" data-aos-delay="200">
+          <a href="https://www.linkedin.com/in/sunny-agrawal-99813587/" target="_blank"><img src="assets/img/social/linkedin.png" class="img-fluid" alt=""></a>
+        </div>
+        <div class="social-block" data-aos="flip-down" data-aos-delay="300">
+          <a href="https://www.facebook.com/sunny.agarwal.395669/" target="_blank"><img src="assets/img/social/facebook.png" class="img-fluid" alt=""></a>
+        </div>
+        <div class="social-block" data-aos="flip-down" data-aos-delay="400">
+          <a href="https://twitter.com/sunnyagrawal216" target="_blank"><img src="assets/img/social/twitter.png" class="img-fluid" alt=""></a>
+        </div>
+        <div class="social-block" data-aos="flip-down" data-aos-delay="500">
+          <a href="https://www.youtube.com/channel/UCPD3EfTYaMLVXtQ6DI3PXUw" target="_blank"><img src="assets/img/social/youtube.png" class="img-fluid" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 @endsection

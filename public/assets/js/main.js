@@ -186,4 +186,25 @@
     }
   });
 
+  // Social Media carousel (uses the Owl Carousel library)
+  $(".socialmedia-carousel").owlCarousel({
+    autoplay: true,
+    dots: false,
+    nav: false,
+    loop: true,
+    margin:20,
+    smartSpeed: 1200,
+    responsive: {
+      0: {
+        items: 3
+      },
+      768: {
+        items: 4
+      },
+      900: {
+        items: 4
+      }
+    }
+  });
+
 })(jQuery);
