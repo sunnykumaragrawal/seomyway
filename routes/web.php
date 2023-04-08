@@ -25,6 +25,10 @@ Route::get('/blog/seo-ranking-factors', function () {
     return view('blog.basic.seorankingfactors');
 })->name('blog.seorankingfactors');
 
+Route::get('/blog/how-to-create-backlinks', function () {
+    return view('blog.backlink.howtocreate');
+})->name('backlink.howcreate');
+
 Route::get('/blog/free-keyword-research-tools', function () {
     return view('blog.keyword.freetools');
 })->name('keyword.freetools');

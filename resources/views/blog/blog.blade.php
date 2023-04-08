@@ -21,6 +21,7 @@ seo blogs,
           <ul id="allblogs-flters">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-keyword">Keyword Research</li>
+            <li data-filter=".filter-backlink">Backlinks</li>
             <li data-filter=".filter-title">Title Tag & Meta tags</li>
             <li data-filter=".filter-ranking">Ranking Factors</li>
             <li data-filter=".filter-seotools">Seo Tools</li>
@@ -35,18 +36,18 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('blog.seorankingfactors')}}">Read More</a></div>
           </article>
         </div>
+              <div class="col-md-6 allblogs-item filter-backlink">
+                <article class="allblogs-block">
+                  <div class="allblogs-img"><a href="{{route('backlink.howcreate')}}"><img src="{{asset('assets/img/blog/thumbnail/how-to-create-backlinks.png')}}" alt="How to create backlinks for my website" class="img-fluid"></a></div>
+                  <h2 class="allblogs-title"><a href="{{route('backlink.howcreate')}}">How to create backlinks for my website</a></h2>
+                  <div class="allblogs-btn"><a href="{{route('backlink.howcreate')}}">Read More</a></div>
+                </article>
+              </div>
         <div class="col-md-6 allblogs-item filter-keyword">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('keyword.freetools')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-research-tools.png')}}" alt="keyword research tools" class="img-fluid"></a></div>
             <h2 class="allblogs-title"><a href="{{route('keyword.freetools')}}">Free tools for keyword research In Seo</a></h2>
             <div class="allblogs-btn"><a href="{{route('keyword.freetools')}}">Read More</a></div>
-          </article>
-        </div>
-        <div class="col-md-6 allblogs-item filter-seotools">
-          <article class="allblogs-block">
-            <div class="allblogs-img"><a href="{{route('blog.pagespeedtools')}}"><img src="{{asset('assets/img/blog/thumbnail/test-website-speed.png')}}" alt="Test your website speed with free tools" class="img-fluid"></a></div>
-            <h2 class="allblogs-title"><a href="{{route('blog.pagespeedtools')}}">Free tools for testing website speed</a></h2>
-            <div class="allblogs-btn"><a href="{{route('blog.pagespeedtools')}}">Read More</a></div>
           </article>
         </div>
         <div class="col-md-6 allblogs-item filter-keyword">
@@ -61,6 +62,13 @@ seo blogs,
             <div class="allblogs-img"><a href="{{route('blog.tipswritetitle')}}"><img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="tips for writing title tag" class="img-fluid"></a></div>
             <h2 class="allblogs-title"><a href="{{route('blog.tipswritetitle')}}">Tips for writing good title tag</a></h2>
             <div class="allblogs-btn"><a href="{{route('blog.tipswritetitle')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="col-md-6 allblogs-item filter-seotools">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.pagespeedtools')}}"><img src="{{asset('assets/img/blog/thumbnail/test-website-speed.png')}}" alt="Test your website speed with free tools" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('blog.pagespeedtools')}}">Free tools for testing website speed</a></h2>
+            <div class="allblogs-btn"><a href="{{route('blog.pagespeedtools')}}">Read More</a></div>
           </article>
         </div>
         <div class="col-md-6 allblogs-item filter-title">
