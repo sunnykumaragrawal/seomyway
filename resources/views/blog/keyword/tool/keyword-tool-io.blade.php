@@ -1,11 +1,11 @@
 @extends('base')
 
 @section('title')
-Keyword tool io - The Complete Guide
+Keyword tool io - Don't Miss these 6 Advanced features
 @stop
 
 @section('meta_desc')
-Keyword Tool.io has free & pro version. In the free version you can check Keyword ideas and much more.
+Keyword Tool.io has free & pro version. In the free version you can get Keyword ideas and also you can use 6 advanced features available in it.
 @stop
 
 @section('meta_keywords')
@@ -21,7 +21,7 @@ keyword tool io,
         <div class="col-md-10">
           <article class="single-blog-item">
             <div class="single-blog-title">
-              <h1>How to use Keyword Tool.io for free - The Complete Guide</h1>
+              <h1>How to use Keyword Tool.io for free with its 6 Advanced features - Step by Step guide</h1>
             </div>
             <div class="single-blog-img">
               <img src="{{asset('assets/img/blog/thumbnail/keyword-tool.io.png')}}" alt="How to use keyword tool.io" class="img-fluid">

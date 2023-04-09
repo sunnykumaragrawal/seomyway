@@ -1,15 +1,16 @@
 @extends('base')
 
 @section('title')
-Keyword Sheeter - The Complete Guide
+Keyword Sheeter - Don't Miss these 5 Advance features
 @stop
 
 @section('meta_desc')
-Keyword sheeter is a free tool for keyword research. In this you can get unlimited Keyword ideas for your seo strategy.
+Keyword sheeter is a free tool for unlimited keywords idea generator with 5 advance features. In this you can also export keywords to google keyword planner.
 @stop
 
 @section('meta_keywords')
 keyword sheeter,
+keyword shitter,
 @stop
 
 @section('content')
@@ -20,27 +21,24 @@ keyword sheeter,
         <div class="col-md-10">
           <article class="single-blog-item">
             <div class="single-blog-title">
-              <h1>How to use Keyword Sheeter for keyword research - The Complete Guide</h1>
+              <h1>How to use Keyword Sheeter for keywords idea generation with 5 Advanced features - Step by Step Guide</h1>
             </div>
             <div class="single-blog-img">
               <img src="{{asset('assets/img/blog/thumbnail/keyword-sheeter.png')}}" alt="How to use keyword Sheeter" class="img-fluid">
             </div>
             <div class="single-blog-content">
-              <h3>What are the uses of keyword sheeter?</h3>
-              <p>The main uses of keyword sheeter mentioned as below:</p>
-              <ul class="sbc-list">
-                <li>To generate lots of keyword ideas</li>
-              </ul>
+              <h3>What is the main use of keyword sheeter?</h3>
+              <p>The main use of keyword sheeter is to generate unlimited keyword ideas.</p>
             </div>
             <div class="single-blog-content">
-              <h3>What are the advanced features in keyword sheeter?</h3>
-              <p>Keyword sheeter provide lots of features in its tool for free:</p>
+              <h3>What are the 5 advanced features in keyword sheeter?</h3>
+              <p>Keyword sheeter provides the below advanced options to filter keywords:</p>
               <ul class="sbc-list">
-                <li>You can choose keyword type like: videos, images, news, products etc</li>
-                <li>You can choose for a particular country</li>
-                <li>You can also choose for a language</li>
-                <li>You can also use advanced options where you can select a particular location in a country</li>
-                <li>You can also add keyword ideas to google keyword planner</li>
+                <li>You can choose keyword content type. for example: classic(web google), youtube, images, news, products etc</li>
+                <li>You can select for a particular country.</li>
+                <li>You can also select for a language.</li>
+                <li>You can also use advanced options where you can select a particular state of a country and a region in that state.</li>
+                <li>You can also export keywords ideas to google keyword planner</li>
               </ul>
             </div>
             <div class="single-blog-points">
@@ -68,7 +66,7 @@ keyword sheeter,
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
-                <p><b>Step: 4</b> Once keyword generated you can click "stop" button and also can add these keywords to google keyword planner</p>
+                <p><b>Step: 4</b> Once keyword generated you can click "stop" button and also can export these keywords to google keyword planner</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ks/4.PNG')}}" class="img-fluid">
                 </div>
