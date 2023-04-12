@@ -29,6 +29,10 @@ Route::get('/blog/how-to-create-backlinks', function () {
     return view('blog.backlink.howtocreate');
 })->name('backlink.howcreate');
 
+Route::get('/blog/competitors-backlinks-analysis', function () {
+    return view('blog.backlink.competitors');
+})->name('backlink.competitors');
+
 Route::get('/blog/free-keyword-research-tools', function () {
     return view('blog.keyword.freetools');
 })->name('keyword.freetools');

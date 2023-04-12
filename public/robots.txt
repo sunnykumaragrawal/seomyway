@@ -47,3 +47,6 @@ Disallow: /assets/img/blog/robotstag/none.PNG
 Disallow: /assets/img/blog/robotstag/nosnippet.PNG
 Disallow: /assets/img/blog/robotstag/notranslate.PNG
 Disallow: /assets/img/blog/robotstag/unavailable_after.PNG
+Disallow: /assets/img/blog/backlink/cba/ahrefs.PNG
+Disallow: /assets/img/blog/backlink/cba/ke.PNG
+Disallow: /assets/img/blog/backlink/cba/semrush.PNG

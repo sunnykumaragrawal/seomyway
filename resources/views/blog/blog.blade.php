@@ -36,13 +36,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('blog.seorankingfactors')}}">Read More</a></div>
           </article>
         </div>
-              <div class="col-md-6 allblogs-item filter-backlink">
-                <article class="allblogs-block">
-                  <div class="allblogs-img"><a href="{{route('backlink.howcreate')}}"><img src="{{asset('assets/img/blog/thumbnail/how-to-create-backlinks.png')}}" alt="How to create backlinks for my website" class="img-fluid"></a></div>
-                  <h2 class="allblogs-title"><a href="{{route('backlink.howcreate')}}">How to create backlinks for my website</a></h2>
-                  <div class="allblogs-btn"><a href="{{route('backlink.howcreate')}}">Read More</a></div>
-                </article>
-              </div>
+        <div class="col-md-6 allblogs-item filter-backlink">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('backlink.howcreate')}}"><img src="{{asset('assets/img/blog/thumbnail/how-to-create-backlinks.png')}}" alt="How to create backlinks for my website" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('backlink.howcreate')}}">How to create backlinks for my website</a></h2>
+            <div class="allblogs-btn"><a href="{{route('backlink.howcreate')}}">Read More</a></div>
+          </article>
+        </div>
         <div class="col-md-6 allblogs-item filter-keyword">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('keyword.freetools')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-research-tools.png')}}" alt="keyword research tools" class="img-fluid"></a></div>
@@ -118,6 +118,13 @@ seo blogs,
             <div class="allblogs-img"><a href="{{route('tool.keywordsheeter')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-sheeter.png')}}" alt="How to use keyword Sheeter" class="img-fluid"></a></div>
             <h2 class="allblogs-title"><a href="{{route('tool.keywordsheeter')}}">How to use Keyword Sheeter</a></h2>
             <div class="allblogs-btn"><a href="{{route('tool.keywordsheeter')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="col-md-6 allblogs-item filter-backlink">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('backlink.competitors')}}"><img src="{{asset('assets/img/blog/thumbnail/How-to-check-competitors-backlinks.png')}}" alt="How to check competitors backlinks" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('backlink.competitors')}}">How to check competitors backlinks</a></h2>
+            <div class="allblogs-btn"><a href="{{route('backlink.competitors')}}">Read More</a></div>
           </article>
         </div>
   		</div>

@@ -11,7 +11,6 @@ Backlinks are one of the most powerful thing in seo. If you want to get more tra
 @section('meta_keywords')
 how to create backlinks,
 what are backlinks for seo,
-
 @stop
 
 @section('content')
