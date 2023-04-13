@@ -25,6 +25,7 @@ seo blogs,
             <li data-filter=".filter-title">Title Tag & Meta tags</li>
             <li data-filter=".filter-ranking">Ranking Factors</li>
             <li data-filter=".filter-seotools">Seo Tools</li>
+            <li data-filter=".filter-searchoperators">Search Operators</li>
           </ul>
         </div>
       </div>
@@ -36,6 +37,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('blog.seorankingfactors')}}">Read More</a></div>
           </article>
         </div>
+              <div class="col-md-6 allblogs-item filter-searchoperators">
+                <article class="allblogs-block">
+                  <div class="allblogs-img"><a href="{{route('blog.searchoperators')}}"><img src="{{asset('assets/img/blog/thumbnail/google-search-operators.png')}}" alt="How to use google search operators" class="img-fluid"></a></div>
+                  <h2 class="allblogs-title"><a href="{{route('blog.searchoperators')}}">How search operators are useful for us</a></h2>
+                  <div class="allblogs-btn"><a href="{{route('blog.searchoperators')}}">Read More</a></div>
+                </article>
+              </div>
         <div class="col-md-6 allblogs-item filter-backlink">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('backlink.howcreate')}}"><img src="{{asset('assets/img/blog/thumbnail/how-to-create-backlinks.png')}}" alt="How to create backlinks for my website" class="img-fluid"></a></div>

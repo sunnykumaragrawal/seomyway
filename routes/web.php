@@ -76,3 +76,7 @@ Route::get('/blog/meta-tags-for-seo', function () {
 Route::get('/blog/meta-robots-tag', function () {
     return view('blog.metatags.robotstags');
 })->name('blog.metarobotstags');
+
+Route::get('/blog/google-search-operators', function () {
+    return view('blog.basic.searchoperators');
+})->name('blog.searchoperators');

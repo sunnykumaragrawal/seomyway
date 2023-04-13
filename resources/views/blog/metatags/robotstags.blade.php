@@ -163,6 +163,17 @@ meta robot,
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="references">
+            <h4>References:</h4>
+            <p><a href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag" target="_blank">https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag</a></p>
+            <p><a href="https://developers.google.com/search/blog/2007/03/using-robots-meta-tag" target="_blank">https://developers.google.com/search/blog/2007/03/using-robots-meta-tag</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
 @endsection
