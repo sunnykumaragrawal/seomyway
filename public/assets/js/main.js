@@ -124,7 +124,7 @@
     zIndex: '50'
   });
 
-  // Porfolio isotope and filter
+  // Blogs filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.allblogs-container').isotope({
       itemSelector: '.allblogs-item'

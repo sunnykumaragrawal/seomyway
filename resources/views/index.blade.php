@@ -34,9 +34,9 @@ seo company,
           <p>I offer seo services for you and my ultimate goal is to grow your business online with my knowledge & experience.</p>
         </div>
         <div class="col-lg-3 about-btns">
-          <a href="tel:7770951212" class="btn btn-danger"><img src="{{asset('assets/img/phone-call.png')}}" class="img-fluid"> <span>Call Me</span></a>
-          <a href="https://api.whatsapp.com/send?phone=917770951212" class="btn btn-secondary"><img src="{{asset('assets/img/whatsapp.png')}}" class="img-fluid"> <span>Start Chat</span></a>
-          <a href="mailto:sunny.agarwal865@gmail.com" class="btn btn-info"><img src="{{asset('assets/img/mail.png')}}" class="img-fluid"> <span>Send An Email</span></a>
+          <a href="tel:7770951212" class="btn btn-danger"><span>Call Me</span></a>
+          <a href="https://api.whatsapp.com/send?phone=917770951212" class="btn btn-secondary"><span>Start Chat</span></a>
+          <a href="mailto:sunny.agarwal865@gmail.com" class="btn btn-info"><span>Send An Email</span></a>
         </div>
       </div>
     </div>
@@ -53,7 +53,6 @@ seo company,
             <div class="whyus-icon"><img src="{{asset('assets/img/whyus/passionate.png')}}" class="img-fluid" alt="Passionate"></div>
             <div class="whyus-content">
               <h5>Passionate</h5>
-              <p></p>
             </div>
           </div>
         </div>
@@ -62,7 +61,6 @@ seo company,
             <div class="whyus-icon"><img src="{{asset('assets/img/whyus/experience.png')}}" class="img-fluid" alt="Experience"></div>
             <div class="whyus-content">
               <h5>Experience</h5>
-              <p></p>
             </div>
           </div>
         </div>
@@ -149,20 +147,6 @@ seo company,
             <div class="allblogs-btn"><a href="{{route('keyword.researchsteps')}}">Read More</a></div>
           </article>
         </div>
-        <div class="allblogs-item">
-          <article class="allblogs-block">
-            <div class="allblogs-img"><a href="{{route('blog.tipswritetitle')}}"><img src="{{asset('assets/img/blog/thumbnail/tips-for-writing-title-tag.png')}}" alt="tips for writing title tag" class="img-fluid"></a></div>
-            <h3 class="allblogs-title"><a href="{{route('blog.tipswritetitle')}}">Tips for writing good title tag</a></h3>
-            <div class="allblogs-btn"><a href="{{route('blog.tipswritetitle')}}">Read More</a></div>
-          </article>
-        </div>
-        <div class="allblogs-item">
-          <article class="allblogs-block">
-            <div class="allblogs-img"><a href="{{route('blog.commonmistakeseotitle')}}"><img src="{{asset('assets/img/blog/thumbnail/common-mistakes-in-title-tag.png')}}" alt="Common mistakes in title tag" class="img-fluid"></a></div>
-            <h3 class="allblogs-title"><a href="{{route('blog.commonmistakeseotitle')}}">Common Mistake while writing seo title tag</a></h3>
-            <div class="allblogs-btn"><a href="{{route('blog.commonmistakeseotitle')}}">Read More</a></div>
-          </article>
-        </div>
       </div>
     </div>
   </section>
@@ -204,19 +188,19 @@ seo company,
       </div>
       <div class="owl-carousel socialmedia-carousel">
         <div class="social-block" data-aos="flip-down" data-aos-delay="100">
-          <a href="https://www.instagram.com/sunny_seomyway/" target="_blank"><img src="assets/img/social/instagram.png" class="img-fluid" alt=""></a>
+          <a href="https://www.instagram.com/sunny_seomyway/" target="_blank"><img src="assets/img/social/instagram.png" class="img-fluid" alt="Instagram"></a>
         </div>
         <div class="social-block" data-aos="flip-down" data-aos-delay="200">
-          <a href="https://www.linkedin.com/in/sunny-agrawal-99813587/" target="_blank"><img src="assets/img/social/linkedin.png" class="img-fluid" alt=""></a>
+          <a href="https://www.linkedin.com/in/sunny-agrawal-99813587/" target="_blank"><img src="assets/img/social/linkedin.png" class="img-fluid" alt="Linkedin"></a>
         </div>
         <div class="social-block" data-aos="flip-down" data-aos-delay="300">
-          <a href="https://www.facebook.com/sunny.agarwal.395669/" target="_blank"><img src="assets/img/social/facebook.png" class="img-fluid" alt=""></a>
+          <a href="https://www.facebook.com/sunny.agarwal.395669/" target="_blank"><img src="assets/img/social/facebook.png" class="img-fluid" alt="Facebook"></a>
         </div>
         <div class="social-block" data-aos="flip-down" data-aos-delay="400">
-          <a href="https://twitter.com/sunnyagrawal216" target="_blank"><img src="assets/img/social/twitter.png" class="img-fluid" alt=""></a>
+          <a href="https://twitter.com/sunnyagrawal216" target="_blank"><img src="assets/img/social/twitter.png" class="img-fluid" alt="Twitter"></a>
         </div>
         <div class="social-block" data-aos="flip-down" data-aos-delay="500">
-          <a href="https://www.youtube.com/channel/UCPD3EfTYaMLVXtQ6DI3PXUw" target="_blank"><img src="assets/img/social/youtube.png" class="img-fluid" alt=""></a>
+          <a href="https://www.youtube.com/channel/UCPD3EfTYaMLVXtQ6DI3PXUw" target="_blank"><img src="assets/img/social/youtube.png" class="img-fluid" alt="Youtube"></a>
         </div>
       </div>
     </div>

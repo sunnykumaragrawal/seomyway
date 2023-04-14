@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en-IN">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="google-site-verification" content="q-bf9cHFi_0uxLvlQe5TykL_50vyx4uRca-OOttf4lQ" />
-  <title>@yield('title','seomyway')</title>
+  <title>@yield('title','Sunny Agrawal')</title>
   <meta name="description" content="@yield('meta_desc')">
   <meta name="keywords" content="@yield('meta_keywords')">
 
@@ -30,7 +30,7 @@
           <li><a href="/#services">Services</a></li>
           <li><a href="/blog">Blogs</a></li>
           <li><a href="/#contact">Contact</a></li>
-
+          <li><a href="/#socialmedia">Follow Us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
