@@ -77,4 +77,24 @@ refine your search,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/google-search-operators"
+  },
+  "headline": "Google search operators - Refine your search",
+  "description": "Google Search operators are the tricks to refine your search. Google provides lots of search operators which are very helpful for filtering results. Let's learn with me",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/google-search-operators.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-01",
+  "dateModified": "2023-04-07"
+}
+</script>
 @endsection

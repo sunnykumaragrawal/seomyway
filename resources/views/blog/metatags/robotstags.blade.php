@@ -176,4 +176,24 @@ meta robot,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/meta-robots-tag"
+  },
+  "headline": "Meta Robots tags In seo- The fastest guide",
+  "description": "In this blog I have explained all meta robots tags that are important as search engine point of view",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/meta-robots-tag.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-01",
+  "dateModified": "2023-04-07"
+}
+</script>
 @endsection

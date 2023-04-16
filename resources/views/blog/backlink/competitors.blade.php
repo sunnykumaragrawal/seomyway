@@ -72,4 +72,24 @@ competitors backlinks analysis,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/competitors-backlinks-analysis"
+  },
+  "headline": "Competitors Backlinks Analysis - 3 Amazing techniques",
+  "description": "Competitors backlinks are very crucial for us because we also can get backlinks from there. So don't skip let's start competitors backlinks analysis here",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/How-to-check-competitors-backlinks.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-01",
+  "dateModified": "2023-04-07"
+}
+</script>
 @endsection

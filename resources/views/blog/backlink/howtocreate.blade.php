@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-How to create backlinks for my website - step by step guide
+How to create backlinks for my website - Easy guide
 @stop
 
 @section('meta_desc')
@@ -65,4 +65,24 @@ what are backlinks for seo,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/how-to-create-backlinks"
+  },
+  "headline": "How to create backlinks for my website - Easy guide",
+  "description": "Backlinks are one of the most powerful thing in seo. If you want to get more traffic and ranker higher. You have to go through link-building process. ",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/how-to-create-backlinks.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-01",
+  "dateModified": "2023-04-07"
+}
+</script>
 @endsection

@@ -71,4 +71,24 @@ title tag,
   	</div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/common-mistakes-in-title-tag"
+  },
+  "headline": "Common mistake while writing seo title tag",
+  "description": "There are small & big mistake that we do while writing title tag. In this blog I have explained those errors",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/common-mistakes-in-title-tag.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-01",
+  "dateModified": "2023-04-07"
+}
+</script>
 @endsection

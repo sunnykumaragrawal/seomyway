@@ -74,4 +74,24 @@ seo title tag,
   	</div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/tips-for-writing-title-tag"
+  },
+  "headline": "Fullproof Tips for writing seo title tag",
+  "description": "We have explained the most important tips for writing and optimizing your title tag in seo",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/tips-for-writing-title-tag.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-01",
+  "dateModified": "2023-04-07"
+}
+</script>
 @endsection

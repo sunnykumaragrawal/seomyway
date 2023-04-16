@@ -56,4 +56,24 @@ top seo factors,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/seo-ranking-factors"
+  },
+  "headline": "Confirmed 4 seo ranking factors",
+  "description": "There are so many ranking factors in seo, but these 4 seo ranking factors can impact 80% of your ranking",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/seo-ranking-factors.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-01",
+  "dateModified": "2023-04-07"
+}
+</script>
 @endsection
