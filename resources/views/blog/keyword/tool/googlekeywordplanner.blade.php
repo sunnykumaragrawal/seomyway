@@ -109,4 +109,24 @@ how to use google keyword planner,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/how-to-use-google-keyword-planner"
+  },
+  "headline": "Google Keyword Planner : The Complete Guide",
+  "description": "Google keyword planner is a free tool by google for keyword research. In this you can check search volume, Keyword ideas, competition level and much more",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/google-keyword-planner.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-02",
+  "dateModified": "2023-04-08"
+}
+</script>
 @endsection

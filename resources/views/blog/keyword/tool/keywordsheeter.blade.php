@@ -79,4 +79,24 @@ keyword shitter,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/how-to-use-keyword-sheeter"
+  },
+  "headline": "Keyword Sheeter - Don't Miss these 5 Advance features",
+  "description": "Keyword sheeter is a free tool for unlimited keywords idea generator with 5 advance features. In this you can also export keywords to google keyword planner",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/keyword-sheeter.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-05",
+  "dateModified": "2023-04-11"
+}
+</script>
 @endsection

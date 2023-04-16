@@ -1,0 +1,32 @@
+A. Website Optimization
+
+1. Title tag
+2. Meta description
+3. Heading tags
+4. Schema Markup
+5. Urls
+6. Navigations + Breadcrumbs
+7. sitemap
+8. 404 page
+9. directory structure
+10. Canonical
+11. Anchor text
+12. Mobile friendly
+
+B. Keyword Research & Content Writing
+1. Write easy to read content
+2. organize your topics clearly
+3. create fresh, unique content
+4. optimize content for users, not for search engine
+5. Avoid distracting ads
+
+
+
+C. Link Building & Marketing
+1. promote your sites
+2. social media sites
+3. related community
+
+
+
+D. Analyse performance and user experience

@@ -69,15 +69,16 @@ best keyword research tool,
     "@type": "WebPage",
     "@id": "https://sunnyagrawal.in/blog/free-keyword-research-tools"
   },
-  "headline": "Free Tools for keyword research in seo",
-  "description": "In this blog I have mentioned free keyword tools , some are owned by google and some by others.",
+  "headline": "Best free keyword research tools by google",
+  "description": "In this blog I have mentioned free keyword tools , some are owned by google and some by others",
   "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/keyword-research-tools.png",  
   "author": {
     "@type": "Person",
-    "name": "Sunny Agrawal"
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
   },  
-  "datePublished": "2023-04-02",
-  "dateModified": "2023-04-10"
+  "datePublished": "2023-04-01",
+  "dateModified": "2023-04-07"
 }
 </script>
 @endsection

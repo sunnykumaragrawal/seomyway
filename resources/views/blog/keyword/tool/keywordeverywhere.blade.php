@@ -76,4 +76,24 @@ keyword everywhere,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/how-to-use-keyword-everywhere"
+  },
+  "headline": "Keyword Everywhere - The Complete Guide",
+  "description": "Keyword Everywhere is a free chrome extension for keyword research. In this you can get Keyword ideas, people also ask, long tail keywords and much more",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/keywod-everywhere.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-04",
+  "dateModified": "2023-04-10"
+}
+</script>
 @endsection

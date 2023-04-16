@@ -59,4 +59,24 @@ how to do keyword research,
     </div>
   </section>
 </main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunnyagrawal.in/blog/how-to-do-keyword-research"
+  },
+  "headline": "Just 3 steps in keyword research for seo",
+  "description": "In this blog we have explained the perfect 3 steps for keyword research in seo. Also we have mentioned here the free tools offered by google that we can use to do keyword research",
+  "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/hoe-to-do-keyword-research.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Sunny Agrawal",
+    "url": "https://www.facebook.com/sunny.agarwal.395669/"
+  },  
+  "datePublished": "2023-04-02",
+  "dateModified": "2023-04-08"
+}
+</script>
 @endsection
