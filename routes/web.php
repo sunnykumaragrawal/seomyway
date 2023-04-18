@@ -21,10 +21,12 @@ Route::get('/blog', function () {
     return view('blog.blog');
 })->name('allblogs');
 
-Route::get('/blog/seo-ranking-factors', function () {
-    return view('blog.basic.seorankingfactors');
-})->name('blog.seorankingfactors');
+// Seo basics
+Route::get('/blog/how-seo-works', function () {
+    return view('blog.basic.intro');
+})->name('seo.intro');
 
+//Backlink blogs
 Route::get('/blog/how-to-create-backlinks', function () {
     return view('blog.backlink.howtocreate');
 })->name('backlink.howcreate');
@@ -33,6 +35,7 @@ Route::get('/blog/competitors-backlinks-analysis', function () {
     return view('blog.backlink.competitors');
 })->name('backlink.competitors');
 
+// Keyword blogs
 Route::get('/blog/free-keyword-research-tools', function () {
     return view('blog.keyword.freetools');
 })->name('keyword.freetools');
@@ -57,13 +60,10 @@ Route::get('/blog/how-to-do-keyword-research', function () {
     return view('blog.keyword.how-to-do-keyword-research');
 })->name('keyword.researchsteps');
 
+// Title tag and meta tags blogs
 Route::get('/blog/tips-for-writing-title-tag', function () {
     return view('blog.onpage.tips-write-title');
 })->name('blog.tipswritetitle');
-
-Route::get('/blog/web-page-speed-test', function () {
-    return view('blog.onpage.pagespeedtools');
-})->name('blog.pagespeedtools');
 
 Route::get('/blog/common-mistakes-in-title-tag', function () {
     return view('blog.onpage.common-mistake-while-writing-title-tag-seo');
@@ -77,6 +77,17 @@ Route::get('/blog/meta-robots-tag', function () {
     return view('blog.metatags.robotstags');
 })->name('blog.metarobotstags');
 
+// Ranking factors blogs
+Route::get('/blog/seo-ranking-factors', function () {
+    return view('blog.basic.seorankingfactors');
+})->name('blog.seorankingfactors');
+
+// Seo tools blogs
+Route::get('/blog/web-page-speed-test', function () {
+    return view('blog.onpage.pagespeedtools');
+})->name('blog.pagespeedtools');
+
+// Search operators blogs
 Route::get('/blog/google-search-operators', function () {
     return view('blog.basic.searchoperators');
 })->name('blog.searchoperators');

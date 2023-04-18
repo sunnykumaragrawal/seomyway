@@ -1,4 +1,4 @@
-User-agent: *
+User-agent: Googlebot-Image
 Disallow: /assets/img/contact/icon1.png
 Disallow: /assets/img/contact/icon2.png
 Disallow: /assets/img/service/backlink.png

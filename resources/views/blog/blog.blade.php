@@ -20,6 +20,7 @@ seo blogs,
         <div class="col-md-12 d-flex">
           <ul id="allblogs-flters">
             <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-basic">Seo Basics</li>
             <li data-filter=".filter-keyword">Keyword Research</li>
             <li data-filter=".filter-backlink">Backlinks</li>
             <li data-filter=".filter-title">Title Tag & Meta tags</li>
@@ -30,20 +31,13 @@ seo blogs,
         </div>
       </div>
   		<div class="row allblogs-container">
-  			<div class="col-md-6 allblogs-item filter-ranking">
+  			<div class="col-md-6 allblogs-item filter-basic">
           <article class="allblogs-block">
-            <div class="allblogs-img"><a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid"></a></div>
-            <h2 class="allblogs-title"><a href="{{route('blog.seorankingfactors')}}">Most important seo ranking factors</a></h2>
-            <div class="allblogs-btn"><a href="{{route('blog.seorankingfactors')}}">Read More</a></div>
+            <div class="allblogs-img"><a href="{{route('seo.intro')}}"><img src="{{asset('assets/img/blog/thumbnail/how-seo-works.png')}}" alt="How does seo works?" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('seo.intro')}}">What is SEO and How does it works?</a></h2>
+            <div class="allblogs-btn"><a href="{{route('seo.intro')}}">Read More</a></div>
           </article>
         </div>
-              <div class="col-md-6 allblogs-item filter-searchoperators">
-                <article class="allblogs-block">
-                  <div class="allblogs-img"><a href="{{route('blog.searchoperators')}}"><img src="{{asset('assets/img/blog/thumbnail/google-search-operators.png')}}" alt="How to use google search operators" class="img-fluid"></a></div>
-                  <h2 class="allblogs-title"><a href="{{route('blog.searchoperators')}}">How search operators are useful for us</a></h2>
-                  <div class="allblogs-btn"><a href="{{route('blog.searchoperators')}}">Read More</a></div>
-                </article>
-              </div>
         <div class="col-md-6 allblogs-item filter-backlink">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('backlink.howcreate')}}"><img src="{{asset('assets/img/blog/thumbnail/how-to-create-backlinks.png')}}" alt="How to create backlinks for my website" class="img-fluid"></a></div>
@@ -135,7 +129,21 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('backlink.competitors')}}">Read More</a></div>
           </article>
         </div>
-  		</div>
+        <div class="col-md-6 allblogs-item filter-ranking">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('blog.seorankingfactors')}}">Most important seo ranking factors</a></h2>
+            <div class="allblogs-btn"><a href="{{route('blog.seorankingfactors')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="col-md-6 allblogs-item filter-searchoperators">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.searchoperators')}}"><img src="{{asset('assets/img/blog/thumbnail/google-search-operators.png')}}" alt="How to use google search operators" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('blog.searchoperators')}}">How search operators are useful for us</a></h2>
+            <div class="allblogs-btn"><a href="{{route('blog.searchoperators')}}">Read More</a></div>
+          </article>
+        </div>
+      </div>
   	</div>
   </section>
 </main>

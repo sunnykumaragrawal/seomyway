@@ -587,6 +587,24 @@ section{
   font-size: 24px;
 }
 
+.single-blogs-steps .sbs-tips{
+  margin-top: 20px;
+}
+
+.single-blogs-steps .sbs-tips h4{
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.single-blogs-steps .sbs-list{
+  padding-left: 15px;
+}
+
+.single-blogs-steps .sbs-list li{
+  font-size: 24px;
+}
+
 .single-blogs-steps .sbs-img{
   border: 2px solid #691999;
 }
