@@ -10,7 +10,19 @@ Keyword sheeter is a free tool for unlimited keywords idea generator with 5 adva
 
 @section('meta_keywords')
 keyword sheeter,
-keyword shitter,
+keywordsheeter,
+keyword sheeter com,
+keywordsheeter com,
+keyword sheeter 2,
+key word sheeter,
+free keyword sheeter,
+https keywordsheeter com,
+keywordsheet,
+keyword sheeter alternative,
+keywordsheeter io,
+keyword sheeter free,
+sheeter keywords,
+keyword sheeter tool,
 @stop
 
 @section('content')
@@ -31,7 +43,7 @@ keyword shitter,
               <p>The main use of keyword sheeter is to generate unlimited keyword ideas.</p>
             </div>
             <div class="single-blog-content">
-              <h3>What are the 5 advanced features in keyword sheeter?</h3>
+              <h3>What are the 5 advanced features?(In Free version)</h3>
               <p>Keyword sheeter provides the below advanced options to filter keywords:</p>
               <ul class="sbc-list">
                 <li>You can choose keyword content type. for example: classic(web google), youtube, images, news, products etc</li>
@@ -41,14 +53,27 @@ keyword shitter,
                 <li>You can also export keywords ideas to google keyword planner</li>
               </ul>
             </div>
+            <div class="single-blog-content">
+              <h3>What are the advanced features?(In Paid version)</h3>
+              <p>Keyword sheeter provides the below advanced options in paid version:</p>
+              <ul class="sbc-list">
+                <li>Get google Search Volume and CPC bids for entire keyword set.</li>
+                <li>Get "exact results" count and the front page serp results for a the "exact query".</li>
+                <li>Get all intitle document count for google engine as specified.</li>
+                <li>Get top 100 SERP results for your specified keyword.</li>
+                <li>Get Difficulty Report. Includes SERP, Relevancy Analysis, Trust Analysis and Difficulty Analysis. Includes Search Volume and CPC if you don't have it already.</li>
+                <li>Get Search Volume and CPC, top 100 SERP URLs, AllInTitle Count, "Keyword results" and Term Explorer Difficulty report columns.</li>
+                <li>Get top 100 SERP URLs and Backlink Counts for All URLS and Domains.</li>
+              </ul>
+            </div>
             <div class="single-blog-points">
               <h3>Follow these steps to use keyword sheeter:</h3>
               <div class="single-blogs-steps">
-                <p><b>Step: 1</b> Click the "Go to keyword sheeter" button to use this tool</p>
+                <p><b>Step: 1</b> Click the "keywordsheeter.com" button to use this tool</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ks/1.PNG')}}" class="img-fluid">
                 </div>
-                <div class="visit-link"><a href="https://keywordsheeter.com/" target="_blank">Go to keyword sheeter</a></div>
+                <div class="visit-link"><a href="https://keywordsheeter.com/" target="_blank">keywordsheeter.com</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 2</b> Here you can select different options and put your keyword in search box</p>
@@ -96,7 +121,7 @@ keyword shitter,
     "url": "https://www.facebook.com/sunny.agarwal.395669/"
   },  
   "datePublished": "2023-04-05",
-  "dateModified": "2023-04-11"
+  "dateModified": "2023-04-19"
 }
 </script>
 @endsection
