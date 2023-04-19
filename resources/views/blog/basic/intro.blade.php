@@ -69,7 +69,9 @@ what is seo and how it works,
                     <li>You can also use meta robots tags for managing advanced crawling and indexing.</li>
                   </ul>
                 </div>
-                <div class="visit-link"></div>
+                <div class="visit-link">
+                  <a href="{{route('blog.seoindex')}}">How to manage crawling and indexing with google</a>
+                </div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>3. On-site or On-page optimization:</b> After the above step we can start real seo practice. There are lots of factors in on-page seo that may affect your website ranking. We are seperating these on the basis of google guidelines.</p>

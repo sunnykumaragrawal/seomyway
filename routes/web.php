@@ -82,6 +82,11 @@ Route::get('/blog/seo-ranking-factors', function () {
     return view('blog.basic.seorankingfactors');
 })->name('blog.seorankingfactors');
 
+// Crawling and indexing
+Route::get('/blog/indexing-with-google', function () {
+    return view('blog.basic.googleindex');
+})->name('blog.seoindex');
+
 // Seo tools blogs
 Route::get('/blog/web-page-speed-test', function () {
     return view('blog.onpage.pagespeedtools');
