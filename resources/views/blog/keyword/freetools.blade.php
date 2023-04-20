@@ -47,11 +47,15 @@ best keyword research tool,
                 <div class="visit-link"><a href="{{route('tool.keywordsheeter')}}" target="_blank">How to use Keyword sheeter</a></div>
               </div>
               <div class="single-blogs-steps">
-                <p><b>5. Google Trends:</b> This keyword research tool is owned by google. With the help of this tool you can get the trending period of a keyword. Also you can get in which part of country this keyword is trending.</p>
+                <p><b>5. Keyword surfer:</b> Keyword surfer is a chrome extension that helps you to get related keyword ideas, search volume and much more features for keyword research.</p>
+                <div class="visit-link"><a href="{{route('tool.keywordsurfer')}}" target="_blank">How to use keyword surfer</a></div>
+              </div>
+              <div class="single-blogs-steps">
+                <p><b>6. Google Trends:</b> This keyword research tool is owned by google. With the help of this tool you can get the trending period of a keyword. Also you can get in which part of country this keyword is trending.</p>
                 <div class="visit-link"><a href="https://trends.google.com/home" target="_blank">Go to Google Trends</a></div>
               </div>
               <div class="single-blogs-steps">
-                <p><b>6. Answer the public:</b> It is a keyword research tool that visualizes the autocomplete suggested searches and questions that people ask in an image.</p>
+                <p><b>7. Answer the public:</b> It is a keyword research tool that visualizes the autocomplete suggested searches and questions that people ask in an image.</p>
                 <div class="visit-link"><a href="https://answerthepublic.com/" target="_blank">Go to Answer the public</a></div>
               </div>
             </div>

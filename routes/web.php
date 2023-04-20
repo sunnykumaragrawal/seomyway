@@ -56,6 +56,10 @@ Route::get('/blog/how-to-use-keyword-sheeter', function () {
     return view('blog.keyword.tool.keywordsheeter');
 })->name('tool.keywordsheeter');
 
+Route::get('/blog/how-to-use-keyword-surfer', function () {
+    return view('blog.keyword.tool.keywordsurfer');
+})->name('tool.keywordsurfer');
+
 Route::get('/blog/how-to-do-keyword-research', function () {
     return view('blog.keyword.how-to-do-keyword-research');
 })->name('keyword.researchsteps');

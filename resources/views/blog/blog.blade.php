@@ -123,6 +123,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('tool.keywordsheeter')}}">Read More</a></div>
           </article>
         </div>
+        <div class="col-md-6 allblogs-item filter-keyword">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('tool.keywordsurfer')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-surfer.png')}}" alt="How to use keyword Surfer" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('tool.keywordsurfer')}}">How to use Keyword Surfer</a></h2>
+            <div class="allblogs-btn"><a href="{{route('tool.keywordsurfer')}}">Read More</a></div>
+          </article>
+        </div>
         <div class="col-md-6 allblogs-item filter-backlink">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('backlink.competitors')}}"><img src="{{asset('assets/img/blog/thumbnail/How-to-check-competitors-backlinks.png')}}" alt="How to check competitors backlinks" class="img-fluid"></a></div>
@@ -144,7 +151,7 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('blog.searchoperators')}}">Read More</a></div>
           </article>
         </div>
-        <div class="col-md-6 allblogs-item filter-searchoperators">
+        <div class="col-md-6 allblogs-item filter-crawling">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('blog.seoindex')}}"><img src="{{asset('assets/img/blog/thumbnail/indexing-with-google.png')}}" alt="google crawling and google indexing" class="img-fluid"></a></div>
             <h2 class="allblogs-title"><a href="{{route('blog.seoindex')}}">How search operators are useful for us</a></h2>

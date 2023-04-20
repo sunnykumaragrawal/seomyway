@@ -1,28 +1,15 @@
 @extends('base')
 
 @section('title')
-Keyword Sheeter - Don't Miss these 5 Advance features
+Free Keyword Sheeter tool - Don't Miss 5 Awesome features
 @stop
 
 @section('meta_desc')
-Keyword sheeter is a free tool for unlimited keywords idea generator with 5 advance features. In this you can also export keywords to google keyword planner.
+Keyword sheeter has a free version for unlimited keywords idea generator with 5 advance features. Also it has a paid version where you can get all required data in keyword research.
 @stop
 
 @section('meta_keywords')
-keyword sheeter,
-keywordsheeter,
-keyword sheeter com,
-keywordsheeter com,
-keyword sheeter 2,
-key word sheeter,
-free keyword sheeter,
-https keywordsheeter com,
-keywordsheet,
-keyword sheeter alternative,
-keywordsheeter io,
-keyword sheeter free,
-sheeter keywords,
-keyword sheeter tool,
+keyword sheeter,keywordsheeter,keywordsheeter.com,free keyword sheeter,keyword sheeter free,keyword sheeter tool,sheeter keywords,keywordsheet,keyword sheeter 2,
 @stop
 
 @section('content')
@@ -33,13 +20,22 @@ keyword sheeter tool,
         <div class="col-md-10">
           <article class="single-blog-item">
             <div class="single-blog-title">
-              <h1>How to use Keyword Sheeter for keywords idea generation with 5 Advanced features - Step by Step Guide</h1>
+              <h1>Free Keyword Sheeter tool for unlimited keywords idea generation with 5 Awesome features - Step by Step Guide</h1>
             </div>
             <div class="single-blog-img">
               <img src="{{asset('assets/img/blog/thumbnail/keyword-sheeter.png')}}" alt="How to use keyword Sheeter" class="img-fluid">
             </div>
             <div class="single-blog-content">
-              <h3>What is the main use of keyword sheeter?</h3>
+              <h3>What are the 3 In-built tools in keyword sheeter?</h3>
+              <p>Keyword sheeter has 3 In-built keyword ideas tool:</p>
+              <ul class="sbc-list">
+                <li>Free keyword tool(Available in free version)</li>
+                <li>keyword finder(Available in paid version)</li>
+                <li>Keyword generator(Available in paid version)</li>
+              </ul>
+            </div>
+            <div class="single-blog-content">
+              <h3>What is the main use of keyword sheeter?(In Free version)</h3>
               <p>The main use of keyword sheeter is to generate unlimited keyword ideas.</p>
             </div>
             <div class="single-blog-content">
@@ -69,14 +65,14 @@ keyword sheeter tool,
             <div class="single-blog-points">
               <h3>Follow these steps to use keyword sheeter:</h3>
               <div class="single-blogs-steps">
-                <p><b>Step: 1</b> Click the "keywordsheeter.com" button to use this tool</p>
+                <p><b>Step: 1</b> Click the "keywordsheeter.com" button to use this tool(You don't need to login here)</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ks/1.PNG')}}" class="img-fluid">
                 </div>
                 <div class="visit-link"><a href="https://keywordsheeter.com/" target="_blank">keywordsheeter.com</a></div>
               </div>
               <div class="single-blogs-steps">
-                <p><b>Step: 2</b> Here you can select different options and put your keyword in search box</p>
+                <p><b>Step: 2</b> Here you can select 5 Advanced options to filter results and put your keyword in search box</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ks/2.PNG')}}" class="img-fluid">
                 </div>
@@ -91,7 +87,7 @@ keyword sheeter tool,
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
-                <p><b>Step: 4</b> Once keyword generated you can click "stop" button and also can export these keywords to google keyword planner</p>
+                <p><b>Step: 4</b> Once keywords generated you can click "stop" button and also here you can export these keywords to google keyword planner by clicking "Save to keyword planner" button.</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ks/4.PNG')}}" class="img-fluid">
                 </div>
@@ -112,8 +108,8 @@ keyword sheeter tool,
     "@type": "WebPage",
     "@id": "https://sunnyagrawal.in/blog/how-to-use-keyword-sheeter"
   },
-  "headline": "Keyword Sheeter - Don't Miss these 5 Advance features",
-  "description": "Keyword sheeter is a free tool for unlimited keywords idea generator with 5 advance features. In this you can also export keywords to google keyword planner",
+  "headline": "Free Keyword Sheeter tool - Don't Miss 5 Awesome features",
+  "description": "Keyword sheeter has a free version for unlimited keywords idea generator with 5 advance features. Also it has a paid version where you can get all required data in keyword research.",
   "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/keyword-sheeter.png",  
   "author": {
     "@type": "Person",
@@ -121,7 +117,7 @@ keyword sheeter tool,
     "url": "https://www.facebook.com/sunny.agarwal.395669/"
   },  
   "datePublished": "2023-04-05",
-  "dateModified": "2023-04-19"
+  "dateModified": "2023-04-20"
 }
 </script>
 @endsection
