@@ -26,27 +26,35 @@ keyword surfer,
               <img src="{{asset('assets/img/blog/thumbnail/keyword-surfer.png')}}" alt="How to use keyword Surfer" class="img-fluid">
             </div>
             <div class="single-blog-content">
-              <h3>What are the main features of keyword surfer?</h3>
-              <p>The main features of keyword surfer are mentioned below:</p>
+              <h3>How keyword surfer can help us in keyword research?</h3>
+              <p>Keyword surfer provide lots of data that can be very useful in keyword research:</p>
               <ul class="sbc-list">
-                <li>To get keyword ideas</li>
-                <li>To check search volume of keyword</li>
-                <li>To get monthly search volume of domain</li>
-                <li>You can search for any country</li>
-                <li>You can download keyword ideas</li>
+                <li>To get right keyword ideas</li>
+                <li>To check search volume of keywords</li>
+                <li>To check CPC data for a keyword</li>
+              </ul>
+            </div>
+            <div class="single-blog-content">
+              <h3>What are the advanced features of keyword surfer?</h3>
+              <p>The advanced features of keyword surfer are mentioned below:</p>
+              <ul class="sbc-list">
+                <li>You can check average monthly traffic of any website</li>
+                <li>You can check data for any country</li>
+                <li>You can download keyword ideas report</li>
+                <li>This extension automatically count number of words in any webpage</li>
               </ul>
             </div>
             <div class="single-blog-points">
               <h3>Follow these steps to use keyword surfer:</h3>
               <div class="single-blogs-steps">
-                <p><b>Step: 1</b> Click the below "Go to keyword surfer" button and here you can click on "Add to chrome"</p>
+                <p><b>Step: 1</b> Click the below "Go to keyword surfer" button and here you can click on "Add to chrome". This will automatically add this tool extension to your browser</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ksr/1.PNG')}}" class="img-fluid">
                 </div>
                 <div class="visit-link"><a href="https://chrome.google.com/webstore/detail/keyword-surfer/bafijghppfhdpldihckdcadbcobikaca/related?hl=en" target="_blank">Go to Keyword Surfer</a></div>
               </div>
               <div class="single-blogs-steps">
-                <p><b>Step: 2</b> Here you can search a keyword in google search box</p>
+                <p><b>Step: 2</b> Now you can use this tool, for this you have to search a keyword in google search box</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ksr/2.PNG')}}" class="img-fluid">
                 </div>
@@ -54,7 +62,7 @@ keyword surfer,
                 </div>
               </div>
               <div class="single-blogs-steps">
-                <p><b>Step: 3</b> Now you can check keyword ideas , search volume and download keywords in csv file.</p>
+                <p><b>Step: 3</b> Once you searched, the keyword ideas and search volume will show in right side. And other data like monthly traffic on website, word count will show with the search results in left side. You can also change country here and download reports.</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ksr/3.PNG')}}" class="img-fluid">
                 </div>
@@ -84,7 +92,7 @@ keyword surfer,
     "url": "https://www.facebook.com/sunny.agarwal.395669/"
   },  
   "datePublished": "2023-04-20",
-  "dateModified": "2023-04-20"
+  "dateModified": "2023-04-24"
 }
 </script>
 @endsection
