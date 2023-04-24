@@ -1,14 +1,15 @@
 @extends('base')
 
 @section('title')
-Seo services at affordable price @stop
+Full Stack Web developer & Seo optimization @stop
 
 @section('meta_desc')
-If you want to grow your business online then don't worry. we offer seo services which will help you to reach your customers. @stop
+If you want to create your business online and rank on google then don't worry. we offer website designing services, website development services, seo services at affordable price. @stop
 
 @section('meta_keywords')
-best seo services,
-seo company,
+website designing company,
+website development company,
+seo services,
 @stop
 
 @section('content')
@@ -16,7 +17,7 @@ seo company,
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1>BoostUp Your Business & Get Top Of Search Engine</h1>
+        <h1>Full Stack Web Developer & Website Optimization</h1>
         <a href="tel:7770951212">Call Me Now</a>
       </div>
     </div>
@@ -31,7 +32,7 @@ seo company,
         </div>
         <div class="col-lg-6 about-content">
           <h3>Hey, I am Sunny</h3>
-          <p>I offer seo services for you and my ultimate goal is to grow your business online with my knowledge & experience.</p>
+          <p>I am a full stack web developer & seo service provider. I offer website designing services, website development services, seo services at affordable price.</p>
         </div>
         <div class="col-lg-3 about-btns">
           <a href="tel:7770951212" class="btn btn-danger"><span>Call Me</span></a>
@@ -70,50 +71,39 @@ seo company,
   <section id="services" class="services">
     <div class="container">
       <div class="section-title">
-        <h2>Seo Services</h2>  
+        <h2>Our Services</h2>  
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="service-icon">
-              <img src="{{asset('assets/img/service/content-writing.png')}}" alt="Seo Content Writing" class="img-fluid">
+              <img src="{{asset('assets/img/service/web-design.png')}}" alt="Website designing" class="img-fluid">
             </div>
             <div class="service-content">
-              <h3>Seo Content Writing</h3>
-              <p>Quality of Content is the backbone for a website in Seo. Low quality content may down your ranking, so you must have a good and fresh content for your website. we can create a good quality for you.</p>
+              <h3>Website Designing</h3>
+              <p>We create modern and affordable website designs for our clients. Web Designs may contains as many sections that you want. Our web designs are 100% mobile friendly.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="service-icon">
-              <img src="{{asset('assets/img/service/site-optimization.png')}}" alt="Site Optimization" class="img-fluid">
+              <img src="{{asset('assets/img/service/web-development.png')}}" alt="Website Development" class="img-fluid">
             </div>
             <div class="service-content">
-              <h3>Site Optimization</h3>
-              <p>Page speed is one of the most important ranking factor in seo and also crucial as per your audience point of view. we can optimize your website which includes(css, js , images) optimization.</p>
+              <h3>Web Development</h3>
+              <p>We also create dynamic websites as per customer requirement. Our dynamic website is fully customizable where you can change any part of content.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="service-icon">
-              <img src="{{asset('assets/img/service/backlink.png')}}" alt="Link Building" class="img-fluid">
+              <img src="{{asset('assets/img/service/site-optimization.png')}}" alt="Seo Services" class="img-fluid">
             </div>
             <div class="service-content">
-              <h3>Link Building</h3>
-              <p>Backlinks are the clickable links which are present in others website pointing to your website. It can increase your domain authority which results in your better ranking. we can create quality backlinks for you.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6">
-          <div class="service-item">
-            <div class="service-icon">
-              <img src="{{asset('assets/img/service/mobile-friendly.png')}}" alt="Seo Mobile Friendly" class="img-fluid">
-            </div>
-            <div class="service-content">
-              <h3>Seo Mobile Friendly</h3>
-              <p>Responsiveness of the website is a strong ranking factor in seo. Also it plays an important role for user experience. we can improve responsiveness of your website and make it 100% fit to your mobile and other devices.</p>
+              <h3>Seo Services</h3>
+              <p>To rank your website on google you need a seo service provider. we provide best seo services at very afforable services.</p>
             </div>
           </div>
         </div>
@@ -123,28 +113,32 @@ seo company,
   <section class="allblogs pb-0">
     <div class="container">
       <div class="section-title">
-        <h2>Seo Blogs</h2>  
+        <h2>Latest Blogs</h2>  
       </div>
       <div class="row allblogs-carousel owl-carousel">
         <div class="allblogs-item">
           <article class="allblogs-block">
-            <div class="allblogs-img"><a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid"></a></div>
-            <h3 class="allblogs-title"><a href="{{route('blog.seorankingfactors')}}">Most important seo ranking factors</a></h3>
-            <div class="allblogs-btn"><a href="{{route('blog.seorankingfactors')}}">Read More</a></div>
+            <div class="allblogs-img"><a href="{{route('backlink.howcreate')}}"><img src="{{asset('assets/img/blog/thumbnail/how-to-create-backlinks.png')}}" alt="How to create backlinks for my website" class="img-fluid"></a></div>
           </article>
         </div>
         <div class="allblogs-item">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('keyword.freetools')}}"><img src="{{asset('assets/img/blog/thumbnail/keyword-research-tools.png')}}" alt="keyword research tools" class="img-fluid"></a></div>
-            <h3 class="allblogs-title"><a href="{{route('keyword.freetools')}}">Free tools for keyword research In Seo</a></h3>
-            <div class="allblogs-btn"><a href="{{route('keyword.freetools')}}">Read More</a></div>
+          </article>
+        </div>
+        <div class="allblogs-item">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('seo.intro')}}"><img src="{{asset('assets/img/blog/thumbnail/how-seo-works.png')}}" alt="How does seo works?" class="img-fluid"></a></div>
+          </article>
+        </div>
+        <div class="allblogs-item">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('backlink.competitors')}}"><img src="{{asset('assets/img/blog/thumbnail/How-to-check-competitors-backlinks.png')}}" alt="How to check competitors backlinks" class="img-fluid"></a></div>
           </article>
         </div>
         <div class="allblogs-item">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('keyword.researchsteps')}}"><img src="{{asset('assets/img/blog/thumbnail/hoe-to-do-keyword-research.png')}}" alt="How to do keyword research in seo" class="img-fluid"></a></div>
-            <h3 class="allblogs-title"><a href="{{route('keyword.researchsteps')}}">How to do keyword research In Seo</a></h3>
-            <div class="allblogs-btn"><a href="{{route('keyword.researchsteps')}}">Read More</a></div>
           </article>
         </div>
       </div>

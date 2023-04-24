@@ -1,9 +1,8 @@
 User-agent: Googlebot-Image
 Disallow: /assets/img/contact/icon1.png
 Disallow: /assets/img/contact/icon2.png
-Disallow: /assets/img/service/backlink.png
-Disallow: /assets/img/service/content-writing.png
-Disallow: /assets/img/service/mobile-friendly.png
+Disallow: /assets/img/service/web-design.png
+Disallow: /assets/img/service/web-development.png
 Disallow: /assets/img/service/site-optimization.png
 Disallow: /assets/img/whyus/experience.png
 Disallow: /assets/img/whyus/passionate.png
