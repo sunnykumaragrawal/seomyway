@@ -141,6 +141,50 @@
 
   });
 
+  // Hero carousel (uses the Owl Carousel library)
+  $(".hero-carousel").owlCarousel({
+    autoplay: true,
+    dots: false,
+    loop: true,
+    margin:20,
+    nav: false,
+    smartSpeed: 1200,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 1
+      },
+      900: {
+        items: 1
+      }
+    }
+  });
+
+  // Hero Img carousel (uses the Owl Carousel library)
+  $(".heroimg-carousel").owlCarousel({
+    autoplay: true,
+    dots: false,
+    loop: true,
+    margin:20,
+    nav: false,
+    smartSpeed: 1200,
+    animateOut: 'slideOutRight',
+    animateIn: 'fadeIn',
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 1
+      },
+      900: {
+        items: 1
+      }
+    }
+  });
+
   // why us carousel (uses the Owl Carousel library)
   $('.whyus-carousel').owlCarousel({
     autoplay: true,

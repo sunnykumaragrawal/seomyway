@@ -31,6 +31,8 @@ Disallow: /assets/img/blog/keyword/ktio/3.PNG
 Disallow: /assets/img/blog/keyword/ksr/1.PNG
 Disallow: /assets/img/blog/keyword/ksr/2.PNG
 Disallow: /assets/img/blog/keyword/ksr/3.PNG
+Disallow: /assets/img/blog/keyword/ksr/4.PNG
+Disallow: /assets/img/blog/keyword/ksr/5.PNG
 Disallow: /assets/img/blog/metatags/title.PNG
 Disallow: /assets/img/blog/metatags/description.PNG
 Disallow: /assets/img/blog/metatags/keywords.PNG

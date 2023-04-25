@@ -13,6 +13,30 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+# Whatsapp logo
+--------------------------------------------------------------*/
+.whatsapp-logo{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.whatsapp-logo img{
+  max-height: 45px;
+}
+
+@media(max-width: 767px){
+  .whatsapp-logo img{
+    max-height: 30px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -144,49 +168,242 @@ a:hover {
 /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
-#hero{
-  height: calc(100vh - 70px);
-  background: #691999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  border-top: 1px solid #fff;
+#hero {
+  padding: 0 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-#hero h1{
-  font-size: 6rem;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 50px;
+.hero-carousel{
 }
 
-#hero a{
-  font-size: 20px;
+.hero-item{
+}
+
+#hero h1 {
+  font-size: 48px;
   font-weight: 700;
+  line-height: 56px;
+}
+
+#hero p {
+  font-size: 24px;
+  width: 80%;
+}
+
+.hero-btns{
+  margin-top: 40px;
+}
+
+.herobtn1{
+  background-color: #691999;
   color: #fff;
-  background-color: red;
-  padding: 16px 30px;
+  font-size: 18px;
+  font-weight: 600;
   border-radius: 10rem;
-  text-transform: uppercase;
+  padding: 16px 30px 14px;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.herobtn1:hover{
+  background-color: #fff;
+  color: #691999;
+  border: 3px solid #691999;
+}
+
+.herobtn2{
+  background-color: #fff;
+  color: #691999;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10rem;
+  padding: 16px 30px 14px;
+  border: 3px solid #691999;
+  transition: all 0.5s ease-in-out;
+}
+
+.herobtn2:hover{
+  background-color: #691999;
+  color: #fff;
+  border: none;
 }
 
 @media(max-width: 767px){
-  #hero{
-    height: auto;
-    padding: 40px 20px;
+  #hero .col-lg-6{
+    padding: 0 0;
   }
-  #hero h1{
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+
+  #hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 8;
+    border-left: 100vw solid rgba(255, 255, 255, 1);
+    border-top: 70vh solid #691999;
+  }
+
+  .hero-carousel{
+    position: relative;
+    z-index: 10;
+    border: 4px solid #691999;
+  }
+
+  .hero-item{
+    text-align: center;
+    padding: 20px 20px 40px;
+  }
+
+  #hero h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  #hero p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .herobtn1{
+    font-size: 16px;
+    padding: 10px 16px 8px;
+    margin-right: 7px;
+  }
+
+  .herobtn2{
+    font-size: 16px;
+    padding: 10px 16px 8px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  #hero .col-lg-6{
+    padding: 0 0;
+  }
+
+  #hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 8;
+    border-left: 100vw solid rgba(255, 255, 255, 1);
+    border-top: 100vh solid #691999;
+  }
+
+  .hero-carousel{
+    position: relative;
+    z-index: 10;
+    margin: 0 0;
+    border: 5px solid #691999;
+  }
+
+  .hero-item{
+    text-align: center;
+    padding: 40px 30px 40px;
+  }
+
+  #hero h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  #hero p {
+    font-size: 22px;
+    width: 100%;
+  }
+}
+
+@media(min-width: 992px){
+  #hero{
+    height: 100vh;
+  }
+
+  #hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 8;
+    border-left: 100vw solid rgba(255, 255, 255, 1);
+    border-top: 100vh solid #691999;
+  }
+
+  .hero-carousel{
+    position: absolute;
+    z-index: 10;
+    height: 55vh;
+    top: 45vh;
+    left: 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hero-item{
+    height: 55vh;
+  }
+}
+
+.heroimg-carousel{
+}
+
+@media(max-width: 767px){
+  .heroimg-carousel{
+    position: relative;
+    z-index: 10;
+  }
+
+  .hero-img{
+    padding: 30px;
+    height: 70vh;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .heroimg-carousel{
+    position: relative;
+    z-index: 10;
+  }
+
+  .hero-img{
+    padding: 40px;
+    height: 100vh;
+  }
+}
+
+@media(min-width: 992px){
+  .heroimg-carousel{
+    position: absolute;
+    z-index: 10;
+    top: 5vh;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
   }
 }
 
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about{
+  background-color: #691999;
+  color: #fff;
+}
+
 .about-content{
   padding: 30px;
 }
@@ -218,6 +435,7 @@ a:hover {
   color: #fff;
   font-size: 22px;
   font-weight: 700;
+  border: 1.5px solid #fff;
 }
 
 @media(max-width: 767px){
@@ -358,6 +576,40 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+# Seo Services
+--------------------------------------------------------------*/
+.seoservice-item{
+  background-color: #fff;
+  padding: 40px 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.35);
+}
+
+.seoservice-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background-color: red;
+  margin: 0 auto 30px;
+}
+
+.seoservice-content h3{
+  font-weight: 700;
+}
+
+.seoservice-content p{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
 .contact-item{
@@ -451,6 +703,83 @@ section{
 
   .section-title h2{
     font-size: 36px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 0 0;
+}
+
+.breadcrumbs .breadcrumb-hero {
+  text-align: center;
+  background-color: green;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.breadcrumbs .breadcrumb-hero h2 {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.breadcrumbs .breadcrumb-hero p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 30px auto;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li a{
+  color: #fff !important;
+}
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #fff;
+  content: "/";
+}
+
+@media(max-width: 767px){
+  .breadcrumbs .breadcrumb-hero {
+    padding: 30px 0;
+  }
+
+  .breadcrumbs .breadcrumb-hero h2 {
+    font-size: 28px;
+    letter-spacing: 1.2px;
+  }
+
+  .breadcrumbs ol {
+    margin: 20px 0;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .breadcrumbs .breadcrumb-hero {
+    padding: 40px 0;
+  }
+
+  .breadcrumbs .breadcrumb-hero h2 {
+    font-size: 36px;
+    letter-spacing: 1.4px;
   }
 }
 

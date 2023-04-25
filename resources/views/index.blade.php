@@ -14,11 +14,36 @@ seo services,
 
 @section('content')
 <section id="hero">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-12">
-        <h1>Full Stack Web Developer & Website Optimization</h1>
-        <a href="tel:7770951212">Call Me Now</a>
+      <div class="col-lg-6 order-lg-1 order-2">
+        <div class="owl-carousel hero-carousel">
+          <div class="hero-item">
+            <h1>Website designer</h1>
+            <p>We create modern and affordable website designs for our clients. Web Designs may contains as many sections that you want. Our web designs are 100% mobile friendly.</p>
+          </div>
+          <div class="hero-item">
+            <h1>Web Developer</h1>
+            <p>We also create dynamic websites as per customer requirement. Our dynamic website is fully customizable where you can change any part of content.</p>
+          </div>
+          <div class="hero-item">
+            <h1>Seo Services</h1>
+            <p>To rank your website on google you need a seo service provider. we provide best seo services at very afforable services.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 offset-lg-2 order-lg-2 order-1">
+        <div class="owl-carousel heroimg-carousel">
+          <div class="hero-img">
+            <img src="{{asset('assets/img/service/web-design.png')}}" alt="Website designing" class="img-fluid">
+          </div>
+          <div class="hero-img">
+            <img src="{{asset('assets/img/service/web-development.png')}}" alt="Website Development" class="img-fluid">
+          </div>
+          <div class="hero-img">
+            <img src="{{asset('assets/img/service/site-optimization.png')}}" alt="Seo Services" class="img-fluid">
+          </div>
+        </div>
       </div>
     </div>
   </div>

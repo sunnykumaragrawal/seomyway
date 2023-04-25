@@ -13,7 +13,8 @@
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">  
+  <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/css/animate.css')}}" rel="stylesheet">  
 </head>
 
 <body>
@@ -47,6 +48,8 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
+  <a href="https://api.whatsapp.com/send?phone=917770951212" class="whatsapp-logo"><img src="{{asset('assets/img/whatsapp.png')}}" class="img-fluid"></a>
 
   <!-- Vendor JS Files -->
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>

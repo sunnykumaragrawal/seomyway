@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-Keyword Surfer - Everything you need for keyword research
+Keyword Surfer - Don't miss 3 amazing features
 @stop
 
 @section('meta_desc')
@@ -62,9 +62,23 @@ keyword surfer,
                 </div>
               </div>
               <div class="single-blogs-steps">
-                <p><b>Step: 3</b> Once you searched, the keyword ideas and search volume will show in right side. And other data like monthly traffic on website, word count will show with the search results in left side. You can also change country here and download reports.</p>
+                <p><b>Step: 3</b> Once you searched, the keyword ideas and search volume will show in right side. And other data like monthly traffic on website, word count will show with the search results in left side.</p>
                 <div class="sbs-img">
                   <img src="{{asset('assets/img/blog/keyword/ksr/3.PNG')}}" class="img-fluid">
+                </div>
+                <div class="visit-link"></div>
+              </div>
+              <div class="single-blogs-steps">
+                <p><b>Step: 4</b> To download the report select the keywords that you want to download and then click download icon and select "Download CSV" option. The file will download automatically.</p>
+                <div class="sbs-img">
+                  <img src="{{asset('assets/img/blog/keyword/ksr/4.PNG')}}" class="img-fluid">
+                </div>
+                <div class="visit-link"></div>
+              </div>
+              <div class="single-blogs-steps">
+                <p><b>Step: 5</b> If you want to check monthly traffic on any website in a particular country, you can check by searching domain name in google search box. The data will show below the domain name. Also some basic info of that domain will show on right side.</p>
+                <div class="sbs-img">
+                  <img src="{{asset('assets/img/blog/keyword/ksr/5.PNG')}}" class="img-fluid">
                 </div>
                 <div class="visit-link"></div>
               </div>
@@ -83,7 +97,7 @@ keyword surfer,
     "@type": "WebPage",
     "@id": "https://sunnyagrawal.in/blog/how-to-use-keyword-surfer"
   },
-  "headline": "Keyword Surfer - Everything you need for keyword research",
+  "headline": "Keyword Surfer - Don't miss 3 amazing features",
   "description": "Keyword Surfer is a free chrome extension for keyword research. In this you can get Keyword ideas, search volume and much more.",
   "image": "https://sunnyagrawal.in/assets/img/blog/thumbnail/keywod-surfer.png",  
   "author": {
@@ -92,7 +106,7 @@ keyword surfer,
     "url": "https://www.facebook.com/sunny.agarwal.395669/"
   },  
   "datePublished": "2023-04-20",
-  "dateModified": "2023-04-24"
+  "dateModified": "2023-04-25"
 }
 </script>
 @endsection
