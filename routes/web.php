@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
-Route::get('/seo-services', function () {
-    return view('seo');
-})->name('seoMain');
-
 Route::get('/blog', function () {
     return view('blog.blog');
 })->name('allblogs');
