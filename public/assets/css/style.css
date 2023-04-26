@@ -1004,3 +1004,30 @@ section{
     margin-left: 0;
   }
 }
+
+/*--------------------------------------------------------------
+# Template Box
+--------------------------------------------------------------*/
+.template-box{
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+}
+
+.template-view a{
+  display: block;
+  border: 5px solid #25806F;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  background-color: #fff;
+  color: #25806F;
+  transition: all 0.5s ease-in-out;
+}
+
+.template-view a:hover{
+  background-color: #25806F;
+  color: #fff;
+}

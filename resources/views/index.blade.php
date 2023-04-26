@@ -21,14 +21,23 @@ seo services,
           <div class="hero-item">
             <h1>Website designer</h1>
             <p>We create modern and affordable website designs for our clients. Web Designs may contains as many sections that you want. Our web designs are 100% mobile friendly.</p>
+            <div class="hero-btns">
+              <a href="{{route('webdesignMain')}}" class="herobtn1">Web Designing Services</a>
+            </div>
           </div>
           <div class="hero-item">
             <h1>Web Developer</h1>
             <p>We also create dynamic websites as per customer requirement. Our dynamic website is fully customizable where you can change any part of content.</p>
+            <div class="hero-btns">
+              <a href="{{route('webdevelopmentMain')}}" class="herobtn1">Web Development Services</a>
+            </div>
           </div>
           <div class="hero-item">
             <h1>Seo Services</h1>
             <p>To rank your website on google you need a seo service provider. we provide best seo services at very afforable services.</p>
+            <div class="hero-btns">
+              <a href="{{route('seoMain')}}" class="herobtn1">Seo Services</a>
+            </div>
           </div>
         </div>
       </div>

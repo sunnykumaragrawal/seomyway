@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
+Route::get('/seo-services', function () {
+    return view('seo');
+})->name('seoMain');
+
+Route::get('/web-designing-services', function () {
+    return view('web-designing');
+})->name('webdesignMain');
+
+Route::get('/web-developer-services', function () {
+    return view('web-developer');
+})->name('webdevelopmentMain');
+
 Route::get('/blog', function () {
     return view('blog.blog');
 })->name('allblogs');
@@ -100,3 +112,25 @@ Route::get('/blog/web-page-speed-test', function () {
 Route::get('/blog/google-search-operators', function () {
     return view('blog.basic.searchoperators');
 })->name('blog.searchoperators');
+
+// templates
+
+Route::get('/templates/packers-movers', function () {
+    return view('packers.demos');
+});
+
+Route::get('/templates/packers-movers/demo1', function () {
+    return view('packers.demo1');
+})->name('packer.demo1');
+
+Route::get('/templates/packers-movers/demo2', function () {
+    return view('packers.demo2');
+})->name('packer.demo2');
+
+Route::get('/templates/packers-movers/demo3', function () {
+    return view('packers.demo3');
+})->name('packer.demo3');
+
+Route::get('/templates/packers-movers/demo4', function () {
+    return view('packers.demo4');
+})->name('packer.demo4');
