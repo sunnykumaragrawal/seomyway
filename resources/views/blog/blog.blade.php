@@ -158,6 +158,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('blog.seoindex')}}">Read More</a></div>
           </article>
         </div>
+        <div class="col-md-6 allblogs-item filter-basic">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('seo.sitemap')}}"><img src="{{asset('assets/img/blog/thumbnail/generate-submit-xml-sitemap.png')}}" alt="How to generate and submit xml sitemap" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('seo.sitemap')}}">How to generate and submit xml sitemap</a></h2>
+            <div class="allblogs-btn"><a href="{{route('seo.sitemap')}}">Read More</a></div>
+          </article>
+        </div>
       </div>
   	</div>
   </section>

@@ -51,3 +51,8 @@ Disallow: /assets/img/blog/robotstag/none.PNG
 Disallow: /assets/img/blog/robotstag/nosnippet.PNG
 Disallow: /assets/img/blog/robotstag/notranslate.PNG
 Disallow: /assets/img/blog/robotstag/unavailable_after.PNG
+Disallow: /assets/img/blog/sitemap/1.PNG
+Disallow: /assets/img/blog/sitemap/2.PNG
+Disallow: /assets/img/blog/sitemap/3.PNG
+Disallow: /assets/img/blog/sitemap/4.PNG
+Disallow: /assets/img/blog/sitemap/5.PNG

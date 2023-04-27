@@ -38,6 +38,10 @@ Route::get('/blog/how-seo-works', function () {
     return view('blog.basic.intro');
 })->name('seo.intro');
 
+Route::get('/blog/xml-sitemap-generate-and-submit', function () {
+    return view('blog.basic.sitemap');
+})->name('seo.sitemap');
+
 //Backlink blogs
 Route::get('/blog/how-to-create-backlinks', function () {
     return view('blog.backlink.howtocreate');
