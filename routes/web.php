@@ -42,6 +42,10 @@ Route::get('/blog/xml-sitemap-generate-and-submit', function () {
     return view('blog.basic.sitemap');
 })->name('seo.sitemap');
 
+Route::get('/blog/create-and-submit-robots.txt', function () {
+    return view('blog.basic.robotstxt');
+})->name('seo.robotstxt');
+
 //Backlink blogs
 Route::get('/blog/how-to-create-backlinks', function () {
     return view('blog.backlink.howtocreate');

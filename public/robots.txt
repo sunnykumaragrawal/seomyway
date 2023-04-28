@@ -56,3 +56,6 @@ Disallow: /assets/img/blog/sitemap/2.PNG
 Disallow: /assets/img/blog/sitemap/3.PNG
 Disallow: /assets/img/blog/sitemap/4.PNG
 Disallow: /assets/img/blog/sitemap/5.PNG
+Disallow: /assets/img/blog/robotstxt/1.PNG
+Disallow: /assets/img/blog/robotstxt/2.PNG
+Disallow: /assets/img/blog/robotstxt/3.PNG

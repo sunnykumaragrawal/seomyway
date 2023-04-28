@@ -165,6 +165,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('seo.sitemap')}}">Read More</a></div>
           </article>
         </div>
+        <div class="col-md-6 allblogs-item filter-basic">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('seo.robotstxt')}}"><img src="{{asset('assets/img/blog/thumbnail/create-and-submit-robots.txt.png')}}" alt="How to create and submit robots.txt file" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('seo.robotstxt')}}">How to create and submit robots.txt file</a></h2>
+            <div class="allblogs-btn"><a href="{{route('seo.robotstxt')}}">Read More</a></div>
+          </article>
+        </div>
       </div>
   	</div>
   </section>
