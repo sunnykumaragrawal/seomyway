@@ -7,6 +7,14 @@ Modern Website Designs - Packers & Movers @stop
 @stop
 
 @section('meta_keywords')
+website templates,
+website design templates,
+web templates,
+web design templates,
+best website templates,
+free website design templates,
+website design templates free,
+website layout template,
 @stop
 
 @section('content')

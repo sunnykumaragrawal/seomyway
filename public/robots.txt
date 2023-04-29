@@ -12,6 +12,7 @@ Disallow: /assets/img/nav/contact.png
 Disallow: /assets/img/nav/service.png
 Disallow: /assets/img/mail.png
 Disallow: /assets/img/phone-call.png
+Disallow: /assets/img/arrow.png
 Disallow: /assets/img/whatsapp.png
 Disallow: /assets/img/blog/keyword/gkp/1.PNG
 Disallow: /assets/img/blog/keyword/gkp/2.PNG

@@ -1,13 +1,19 @@
 @extends('base')
 
 @section('title')
-Best Seo Services at affordable price @stop
+Best seo services - Start A free trial
+@stop
 
 @section('meta_desc')
+To rank your website on google you need a seo service provider. we provide best seo services at very afforable rates with free trials.
 @stop
 
 @section('meta_keywords')
+seo company,
 seo services,
+seo agency,
+best seo company,
+best seo services,
 @stop
 
 @section('content')
@@ -15,8 +21,8 @@ seo services,
   <div class="breadcrumb-hero">
     <div class="container">
       <div class="breadcrumb-hero">
-        <h2>Seo Services</h2>
-        <p>To rank your website on google you need a seo service provider. we provide best seo services at very afforable services.</p>
+        <h1>Best Seo Company</h1>
+        <p>To rank your website on google you need a seo service provider. we provide best seo services at very afforable rates with free trials.</p>
       </div>
       <div class="row">
         <ol>
@@ -31,7 +37,7 @@ seo services,
   <section id="seo-services" class="seo-services">
     <div class="container">
       <div class="section-title">
-        <h2>Seo Services we offer</h2>  
+        <h2>Best Seo Services</h2>  
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6">

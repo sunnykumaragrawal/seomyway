@@ -17,17 +17,17 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
-Route::get('/seo-services', function () {
-    return view('seo');
-})->name('seoMain');
-
-Route::get('/web-designing-services', function () {
+Route::get('/web-designing-company', function () {
     return view('web-designing');
 })->name('webdesignMain');
 
 Route::get('/web-developer-services', function () {
     return view('web-developer');
 })->name('webdevelopmentMain');
+
+Route::get('/seo-services', function () {
+    return view('seo');
+})->name('seoMain');
 
 Route::get('/blog', function () {
     return view('blog.blog');
