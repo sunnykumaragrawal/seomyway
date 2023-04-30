@@ -72,6 +72,13 @@
         <div class="col-lg-3 offset-lg-2 order-lg-2 order-1">
           <div class="owl-carousel heroimg-carousel">
             <div class="hero-img">
+              <img src="{{asset('assets/img/p&m/demo3/service/image1.png')}}" class="img-fluid">
+            </div>
+            <div class="hero-img">
+              <img src="{{asset('assets/img/p&m/demo3/service/image2.png')}}" class="img-fluid">
+            </div>
+            <div class="hero-img">
+              <img src="{{asset('assets/img/p&m/demo3/service/image3.png')}}" class="img-fluid">
             </div>
           </div>
         </div>
@@ -325,6 +332,64 @@
       </div>
     </section><!-- End Gallery Section -->
 
+    <section class="pricing-section">
+      <div class="container">
+        <div class="section-title" data-aos="flip-up">
+          <h2>Choose Your Plan</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="100">
+            <div class="pricing-item begginer">
+              <div class="pi-top">
+                <h4>Local Shifting</h4>
+              </div>
+              <div class="pi-price">
+                <h3>$49</h3>
+              </div>
+              <ul>
+                <li>3 Items contain</li>
+                <li>150 kg weight</li>
+                <li>upto 30 kms</li>
+              </ul>
+              <a href="#" class="site-btn sb-line-gradient">Get started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="100">
+            <div class="pricing-item begginer">
+              <div class="pi-top">
+                <h4>Home Shifting</h4>
+              </div>
+              <div class="pi-price">
+                <h3>$99</h3>
+              </div>
+              <ul>
+                <li>10 Items contain</li>
+                <li>300 kg weight</li>
+                <li>upto 70 kms</li>
+              </ul>
+              <a href="#" class="site-btn sb-line-gradient">Get started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="100">
+            <div class="pricing-item begginer">
+              <div class="pi-top">
+                <h4>Vehicle Transport</h4>
+              </div>
+              <div class="pi-price">
+                <h3>$119</h3>
+              </div>
+              <ul>
+                <li>1 Items contain</li>
+                <li>400 kg weight</li>
+                <li>upto 500 kms</li>
+              </ul>
+              <a href="#" class="site-btn sb-line-gradient">Get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="doctors" class="doctors">
       <div class="container">
         <div class="section-title" data-aos="flip-up">
@@ -394,6 +459,58 @@
                 <span>Designation</span>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-title" data-aos="flip-up">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="row accordion">
+          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="100">
+            <label class="faq-item">
+              <input type="checkbox" name="accordion">
+              <div class="faq-heading"><img src="{{asset('assets/img/p&m/demo1/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet?</div>
+              <div class="faq-desc"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+            </label>
+          </div>
+          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="200">
+            <label class="faq-item">
+              <input type="checkbox" name="accordion">
+              <div class="faq-heading"><img src="{{asset('assets/img/p&m/demo1/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet?</div>
+              <div class="faq-desc"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+            </label>
+          </div>
+          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="300">
+            <label class="faq-item">
+              <input type="checkbox" name="accordion">
+              <div class="faq-heading"><img src="{{asset('assets/img/p&m/demo1/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet?</div>
+              <div class="faq-desc"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+            </label>
+          </div>
+          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="400">
+            <label class="faq-item">
+              <input type="checkbox" name="accordion">
+              <div class="faq-heading"><img src="{{asset('assets/img/p&m/demo1/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet?</div>
+              <div class="faq-desc"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+            </label>
+          </div>
+          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="500">
+            <label class="faq-item">
+              <input type="checkbox" name="accordion">
+              <div class="faq-heading"><img src="{{asset('assets/img/p&m/demo1/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet?</div>
+              <div class="faq-desc"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+            </label>
+          </div>
+          <div class="col-lg-12" data-aos="flip-down" data-aos-delay="600">
+            <label class="faq-item">
+              <input type="checkbox" name="accordion">
+              <div class="faq-heading"><img src="{{asset('assets/img/p&m/demo1/faq.png')}}" class="img-fluid"> Lorem ipsum dolor sit amet?</div>
+              <div class="faq-desc"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+            </label>
           </div>
         </div>
       </div>
