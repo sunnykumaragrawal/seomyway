@@ -50,11 +50,11 @@ backlinks,backlink in seo,seo backlinks,what are backlinks,what are backlinks fo
               <h3>Explaination how these methods work:</h3>
               <div class="single-blogs-steps">
                 <p><b>1. Competitor Analysis:</b> The best method to get quality backlinks is to analyze your competitors backlinks. Check that from where they have earned backlinks. Contact them and ask for a link in exchange of anything you can do for them.</p>
-                <div class="visit-link"><a href="https://monitorbacklinks.com/" target="_blank">Tool to check backlinks</a></div>
+                <div class="visit-link"><a href="{{route('backlink.competitors')}}" target="_blank">How to check competitors backlinks</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>2. Broken link building:</b> This is a very popular method of getting backlinks. In this method you have to find relevant websites in your niche that have resources pages but that no longer exist. Ask them to replace that page with yours that have similar resources.</p>
-                <div class="visit-link"><a href="https://chrome.google.com/webstore/detail/website-broken-link-and-4/kkjfobdnekhdpmgomkpeibhlnmcjgian" target="_blank">Tool to check broken link</a></div>
+                <div class="visit-link"><a href="{{route('backlink.brokenlinks')}}" target="_blank">How Broken link building works</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>3. Guest Posting:</b> Guest posting is one of the most effective way to reach new audience. For this you have to publish your article on others website who accept guest articles. You can use below query to find guest blogging websites: "your keyword + inurl:write-for-us"</p>

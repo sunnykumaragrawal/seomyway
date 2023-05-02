@@ -137,6 +137,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('backlink.competitors')}}">Read More</a></div>
           </article>
         </div>
+        <div class="col-md-6 allblogs-item filter-backlink">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('backlink.brokenlinks')}}"><img src="{{asset('assets/img/blog/thumbnail/broken-link-building.png')}}" alt="How to create backlinks from broken links" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('backlink.brokenlinks')}}">How to create backlinks from broken links</a></h2>
+            <div class="allblogs-btn"><a href="{{route('backlink.brokenlinks')}}">Read More</a></div>
+          </article>
+        </div>
         <div class="col-md-6 allblogs-item filter-ranking">
           <article class="allblogs-block">
             <div class="allblogs-img"><a href="{{route('blog.seorankingfactors')}}"><img src="{{asset('assets/img/blog/thumbnail/seo-ranking-factors.png')}}" alt="seo ranking factors" class="img-fluid"></a></div>

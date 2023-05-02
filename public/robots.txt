@@ -60,3 +60,7 @@ Disallow: /assets/img/blog/sitemap/5.PNG
 Disallow: /assets/img/blog/robotstxt/1.PNG
 Disallow: /assets/img/blog/robotstxt/2.PNG
 Disallow: /assets/img/blog/robotstxt/3.PNG
+Disallow: /assets/img/blog/backlink/blb/1.1.PNG
+Disallow: /assets/img/blog/backlink/blb/1.2.PNG
+Disallow: /assets/img/blog/backlink/blb/2.PNG
+Disallow: /assets/img/blog/backlink/blb/3.PNG

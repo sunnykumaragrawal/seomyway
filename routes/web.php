@@ -55,6 +55,10 @@ Route::get('/blog/competitors-backlinks-analysis', function () {
     return view('blog.backlink.competitors');
 })->name('backlink.competitors');
 
+Route::get('/blog/broken-link-building', function () {
+    return view('blog.backlink.brokenlink');
+})->name('backlink.brokenlinks');
+
 // Keyword blogs
 Route::get('/blog/free-keyword-research-tools', function () {
     return view('blog.keyword.freetools');
