@@ -64,3 +64,7 @@ Disallow: /assets/img/blog/backlink/blb/1.1.PNG
 Disallow: /assets/img/blog/backlink/blb/1.2.PNG
 Disallow: /assets/img/blog/backlink/blb/2.PNG
 Disallow: /assets/img/blog/backlink/blb/3.PNG
+Disallow: /assets/img/blog/backlink/cba/1.PNG
+Disallow: /assets/img/blog/backlink/cba/1.2.PNG
+Disallow: /assets/img/blog/backlink/cba/2.PNG
+Disallow: /assets/img/blog/backlink/cba/2.2.PNG
