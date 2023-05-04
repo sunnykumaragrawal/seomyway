@@ -25,7 +25,6 @@
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Domain(.in)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Hosting(Godaddy)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">SSL Certificate</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Maintenance</li>
@@ -72,7 +71,6 @@
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Domain(.in)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Hosting(Godaddy)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">SSL Certificate</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Maintenance</li>
@@ -121,7 +119,6 @@
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Domain(.com)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Hosting(Godaddy)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">SSL Certificate</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Maintenance</li>
@@ -176,7 +173,6 @@
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Domain(.com)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Hosting(Godaddy)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">SSL Certificate</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Maintenance</li>
