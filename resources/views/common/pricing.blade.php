@@ -51,7 +51,7 @@
       <div class="col-lg-3 col-md-6">
         <div class="price-item">
           <h3>Basic</h3>
-          <h4>299rs/mo</h4>
+          <h4>249rs/mo</h4>
           <div class="price-sections">
             <h5>Sections Include</h5>
             <ul>
@@ -66,12 +66,13 @@
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Faqs</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Social Media</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">1 extra section</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Domain(.com)</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Domain(.in)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Hosting(Godaddy)</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">SSL Certificate</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Maintenance</li>
@@ -137,6 +138,7 @@
             <h5>Payment term</h5>
             <ul>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">For 1 year</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">25% advance</li>
             </ul>
           </div>
           <div class="price-sections">
@@ -193,6 +195,7 @@
             <h5>Payment term</h5>
             <ul>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">For 6 month</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">25% advance</li>
             </ul>
           </div>
           <div class="price-sections">

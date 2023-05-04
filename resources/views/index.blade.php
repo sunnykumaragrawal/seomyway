@@ -187,6 +187,7 @@ seo services,
       </div>
     </div>
   </section>
+  @include('common.pricing')
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-title">

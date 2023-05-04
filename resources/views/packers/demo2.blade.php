@@ -289,7 +289,7 @@
       </div>
     </section><!-- End Gallery Section -->
 
-    <section class="pricing-section">
+    <section class="pricing-section d-none">
       <div class="container">
         <div class="section-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="100">
           <h2>Choose Your Plan</h2>
@@ -394,7 +394,7 @@
       </div>
     </section><!-- Doctors Ends -->
 
-    <section id="faq">
+    <section id="faq" class="d-none">
       <div class="container">
         <div class="section-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="100">
           <h2>Frequently Asked Questions</h2>

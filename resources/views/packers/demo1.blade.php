@@ -345,7 +345,7 @@
       </div>
     </section><!-- End Gallery Section -->
 
-    <section class="pricing-section">
+    <section class="pricing-section d-none">
       <div class="container">
         <div class="section-title">
           <span>Pricing</span>
@@ -499,7 +499,7 @@
       </div>
     </section>
 
-    <section id="faq">
+    <section id="faq" class="d-none">
       <div class="container">
         <div class="section-title">
           <span>Faqs</span>

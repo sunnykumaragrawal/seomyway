@@ -285,7 +285,7 @@
       </div>
     </section><!-- End Gallery Section -->
 
-    <section class="pricing-section">
+    <section class="pricing-section d-none">
       <div class="container">
         <div class="section-title" data-aos="fade-down">
           <div class="icon"><img src="{{asset('assets/img/p&m/demo4/nav/price.png')}}" class="img-fluid"></div>
@@ -419,7 +419,7 @@
       </div>
     </section>
 
-    <section id="faq">
+    <section id="faq" class="d-none">
       <div class="container">
         <div class="section-title" data-aos="fade-down">
           <div class="icon"><img src="{{asset('assets/img/p&m/demo4/nav/faq.png')}}" class="img-fluid"></div>
