@@ -19,6 +19,7 @@ website layout template,
 
 @section('content')
 <main class="section-bg">
+  @include('common.freetrial')
   <section>
     <div class="container">
       <div class="section-title">

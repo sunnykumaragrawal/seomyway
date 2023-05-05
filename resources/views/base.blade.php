@@ -7,8 +7,9 @@
   <title>@yield('title','Sunny Agrawal')</title>
   <meta name="description" content="@yield('meta_desc')">
   <meta name="keywords" content="@yield('meta_keywords')">
-
   <meta name="author" content="Sunny Agrawal">
+  <!-- favicons -->
+  <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/img/favicon/favicon-16x16.png')}}">
   <!-- Vendor CSS Files -->
   <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">

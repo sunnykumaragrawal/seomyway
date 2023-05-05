@@ -113,6 +113,7 @@
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Faqs</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Form</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Booking Form</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Social Media</li>
             </ul>
           </div>
@@ -128,6 +129,7 @@
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Images</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Admin Panel</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact System</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Booking System</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Dynamic Website</li>
             </ul>
           </div>
@@ -166,6 +168,7 @@
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Faqs</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Form</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Booking Form</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">testimonials</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Social Media</li>
             </ul>
@@ -184,6 +187,7 @@
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Blogging System</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact System</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Review System</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Booking System</li>
               <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Dynamic Website</li>
             </ul>
           </div>

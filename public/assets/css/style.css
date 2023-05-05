@@ -37,6 +37,43 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+# template btns
+--------------------------------------------------------------*/
+.btn1{
+  background-color: #691999;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10rem;
+  padding: 16px 30px 14px;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn1:hover{
+  background-color: #fff;
+  color: #691999;
+  border: 3px solid #691999;
+}
+
+.btn2{
+  background-color: #fff;
+  color: #691999;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10rem;
+  padding: 16px 30px 14px;
+  border: 3px solid #691999;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn2:hover{
+  background-color: #691999;
+  color: #fff;
+  border: none;
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -196,40 +233,6 @@ a:hover {
   margin-top: 40px;
 }
 
-.herobtn1{
-  background-color: #691999;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 10rem;
-  padding: 16px 30px 14px;
-  margin-right: 10px;
-  transition: all 0.5s ease-in-out;
-}
-
-.herobtn1:hover{
-  background-color: #fff;
-  color: #691999;
-  border: 3px solid #691999;
-}
-
-.herobtn2{
-  background-color: #fff;
-  color: #691999;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 10rem;
-  padding: 16px 30px 14px;
-  border: 3px solid #691999;
-  transition: all 0.5s ease-in-out;
-}
-
-.herobtn2:hover{
-  background-color: #691999;
-  color: #fff;
-  border: none;
-}
-
 @media(max-width: 767px){
   #hero .col-lg-6{
     padding: 0 0;
@@ -267,17 +270,6 @@ a:hover {
   #hero p {
     font-size: 20px;
     width: 100%;
-  }
-
-  .herobtn1{
-    font-size: 16px;
-    padding: 10px 16px 8px;
-    margin-right: 7px;
-  }
-
-  .herobtn2{
-    font-size: 16px;
-    padding: 10px 16px 8px;
   }
 }
 
@@ -393,6 +385,42 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+  }
+}
+
+/*--------------------------------------------------------------
+# Section
+--------------------------------------------------------------*/
+section{
+  padding: 70px 0;
+}
+
+.section-bg {
+  background-color: #fff7f2 /*#fff7f2*/;
+}
+
+.section-title{
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.section-title h2{
+  font-size: 50px;
+  color: #1f1f1f/*#addaed*/;
+  font-weight: 700;
+}
+
+@media(max-width: 767px){
+  section{
+    padding: 30px 0;
+  }
+
+  .section-title{
+    padding-bottom: 30px;
+  }
+
+  .section-title h2{
+    font-size: 36px;
   }
 }
 
@@ -583,41 +611,12 @@ a:hover {
   font-size: 16px;
   font-weight: 600;
   padding: 14px 26px;
-
 }
 
-/*--------------------------------------------------------------
-# Seo Services
---------------------------------------------------------------*/
-.seoservice-item{
-  background-color: #fff;
-  padding: 40px 25px;
-  text-align: center;
-  margin-bottom: 30px;
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.35);
-}
-
-.seoservice-icon{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-  background-color: red;
-  margin: 0 auto 30px;
-}
-
-.seoservice-content h3{
-  font-weight: 700;
-}
-
-.seoservice-content p{
-  font-size: 20px;
-  line-height: 30px;
+@media(max-width: 767px){
+  .service-item{
+    height: auto;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -770,38 +769,37 @@ a:hover {
 @media(min-width: 768px) and (max-width: 991px){}
 
 /*--------------------------------------------------------------
-# Section
+# Footer
 --------------------------------------------------------------*/
-section{
-  padding: 70px 0;
+#footer {
+  background: #2f1708;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 18px;
 }
 
-.section-bg {
-  background-color: #fff7f2 /*#fff7f2*/;
-}
-
-.section-title{
-  padding-bottom: 60px;
+#footer .copyright {
   text-align: center;
 }
 
-.section-title h2{
-  font-size: 50px;
-  color: #1f1f1f/*#addaed*/;
-  font-weight: 700;
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
 }
 
 @media(max-width: 767px){
-  section{
-    padding: 30px 0;
+  #footer {
+    padding: 15px 0;
+    margin-left: 0;
   }
+}
 
-  .section-title{
-    padding-bottom: 30px;
-  }
-
-  .section-title h2{
-    font-size: 36px;
+@media(min-width: 768px) and (max-width: 991px){
+  #footer {
+    padding: 20px 0;
+    margin-left: 0;
   }
 }
 
@@ -880,6 +878,77 @@ section{
     font-size: 36px;
     letter-spacing: 1.4px;
   }
+}
+
+/*--------------------------------------------------------------
+# Free trial
+--------------------------------------------------------------*/
+#freetrial{
+}
+
+.ft-left h3{
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.ft-left p{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.ft-btns{
+  margin-top: 40px;
+}
+
+@media(max-width: 767px){
+  .ft-left{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .ft-left h3{
+    font-size: 24px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .ft-left{
+    text-align: center;
+    margin-top: 35px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Seo Services
+--------------------------------------------------------------*/
+.seoservice-item{
+  background-color: #fff;
+  padding: 40px 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.35);
+}
+
+.seoservice-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background-color: red;
+  margin: 0 auto 30px;
+}
+
+.seoservice-content h3{
+  font-weight: 700;
+}
+
+.seoservice-content p{
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -1067,41 +1136,6 @@ section{
 
 .references p{
   margin-bottom: 5px;
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  background: #2f1708;
-  padding: 30px 0;
-  color: #fff;
-  font-size: 18px;
-}
-
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-
-@media(max-width: 767px){
-  #footer {
-    padding: 15px 0;
-    margin-left: 0;
-  }
-}
-
-@media(min-width: 768px) and (max-width: 991px){
-  #footer {
-    padding: 20px 0;
-    margin-left: 0;
-  }
 }
 
 /*--------------------------------------------------------------

@@ -37,6 +37,7 @@ website creation company,
   </div>
 </section>
 <main class="section-bg">
+  @include('common.freetrial')
   <section id="seo-services" class="seo-services">
     <div class="container">
       <div class="section-title">

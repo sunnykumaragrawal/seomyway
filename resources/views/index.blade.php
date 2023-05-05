@@ -22,21 +22,21 @@ seo services,
             <h1>Web Design Company</h1>
             <p>We are a web design agency & we create modern and responsive web designs for our clients. Our web designs are fast to load and at affordable price.</p>
             <div class="hero-btns">
-              <a href="{{route('webdesignMain')}}" class="herobtn1">Web Design Services</a>
+              <a href="{{route('webdesignMain')}}" class="btn1">Web Design Services</a>
             </div>
           </div>
           <div class="hero-item">
             <h1>Web Developer</h1>
             <p>We create dynamic websites as per customer requirement. Our dynamic website is fully customizable where you can change any part of content in your website.</p>
             <div class="hero-btns">
-              <a href="{{route('webdevelopmentMain')}}" class="herobtn1">Web Development Services</a>
+              <a href="{{route('webdevelopmentMain')}}" class="btn1">Web Development Services</a>
             </div>
           </div>
           <div class="hero-item">
             <h1>Best Seo Company</h1>
             <p>To rank your website on google you need a seo service provider. we provide best seo services at very afforable rates with free trials.</p>
             <div class="hero-btns">
-              <a href="{{route('seoMain')}}" class="herobtn1">Seo Services</a>
+              <a href="{{route('seoMain')}}" class="btn1">Seo Services</a>
             </div>
           </div>
         </div>
