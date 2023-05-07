@@ -289,7 +289,7 @@
       </div>
     </section><!-- End Gallery Section -->
 
-    <section class="pricing-section d-none">
+    <section class="pricing-section">
       <div class="container">
         <div class="section-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="100">
           <h2>Choose Your Plan</h2>
@@ -394,7 +394,7 @@
       </div>
     </section><!-- Doctors Ends -->
 
-    <section id="faq" class="d-none">
+    <section id="faq">
       <div class="container">
         <div class="section-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="100">
           <h2>Frequently Asked Questions</h2>
@@ -524,7 +524,7 @@
   <footer id="footer">
     <div class="container">
       <div class="credits">
-        Designed by <a href="https://agrawalsoftwarehouse.com/" target="_blank">Agrawal Software House</a>
+        Designed by <a href="https://sunnyagrawal.in/" target="_blank">sunnyagrawal.in</a>
       </div>
     </div>
   </footer><!-- End Footer -->

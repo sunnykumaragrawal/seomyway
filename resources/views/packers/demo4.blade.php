@@ -285,7 +285,7 @@
       </div>
     </section><!-- End Gallery Section -->
 
-    <section class="pricing-section d-none">
+    <section class="pricing-section">
       <div class="container">
         <div class="section-title" data-aos="fade-down">
           <div class="icon"><img src="{{asset('assets/img/p&m/demo4/nav/price.png')}}" class="img-fluid"></div>
@@ -419,7 +419,7 @@
       </div>
     </section>
 
-    <section id="faq" class="d-none">
+    <section id="faq">
       <div class="container">
         <div class="section-title" data-aos="fade-down">
           <div class="icon"><img src="{{asset('assets/img/p&m/demo4/nav/faq.png')}}" class="img-fluid"></div>
@@ -581,7 +581,7 @@
       <div class="row pt-4 pb-2 mt-5 text-center">
         <div class="col-md-12">
           <div class="border-top pt-5">
-            <p>Designed by <a href="https://agrawalsoftwarehouse.com/" target="_blank">Agrawal Software House</a></p>
+            <p>Designed by <a href="https://sunnyagrawal.in/" target="_blank">sunnyagrawal.in</a></p>
           </div>
         </div>
 

@@ -345,7 +345,7 @@
       </div>
     </section><!-- End Gallery Section -->
 
-    <section class="pricing-section d-none">
+    <section class="pricing-section">
       <div class="container">
         <div class="section-title">
           <span>Pricing</span>
@@ -499,7 +499,7 @@
       </div>
     </section>
 
-    <section id="faq" class="d-none">
+    <section id="faq">
       <div class="container">
         <div class="section-title">
           <span>Faqs</span>
@@ -709,7 +709,7 @@
       </div>
     </div>
     <div class="container-fluid copyright">
-      <p>Designed By: <a href="https://agrawalsoftwarehouse.com/" target="_blank">Agrawal Software House</a></p>
+      <p>Designed By: <a href="https://sunnyagrawal.in/" target="_blank">sunnyagrawal.in</a></p>
     </div>
   </footer>
 

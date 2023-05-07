@@ -188,6 +188,59 @@ seo services,
     </div>
   </section>
   @include('common.pricing')
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>  
+      </div>
+      <div class="row">
+        <div class="col-lg-5 d-flex justify-content-center align-items-center">
+          <img src="{{asset('assets/img/faq-bg.webp')}}" class="img-fluid">
+        </div>
+        <div class="col-lg-7">
+          <div class="faq-list">
+            <ul>
+              <li data-aos="flip-right">
+                <img src="{{asset('assets/img/faq.png')}}" class="img-fluid icon-help"> <a data-toggle="collapse" class="collapse" href="#faq-list-1">How long will it take to get a new website? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                  <p>Although each client want to make his website faster, we aim for a turnaround time of 3 to 6 working days on average. Your responsiveness to feedback, and how soon the content is prepared all have an impact on how quickly the project is finished.</p>
+                </div>
+              </li>
+
+              <li data-aos="flip-right" data-aos-delay="600">
+                <img src="{{asset('assets/img/faq.png')}}" class="img-fluid icon-help"> <a data-toggle="collapse" href="#faq-list-6" class="collapsed">What Package Should I Choose? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-6" class="collapse" data-parent=".faq-list">
+                  <p>If you want to make a small investment then you should select basic package. But if you need more functionality in your website and you are ready to pay little more then you can select advanced package or fully featured packages.</p>
+                </div>
+              </li>
+
+              <li data-aos="flip-right" data-aos-delay="200">
+                <img src="{{asset('assets/img/faq.png')}}" class="img-fluid icon-help"> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Will you maintain my site for me? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                  <p>Yes we can! but we charge for it per year.</p>
+                </div>
+              </li>
+
+              <li data-aos="flip-right" data-aos-delay="300">
+                <img src="{{asset('assets/img/faq.png')}}" class="img-fluid icon-help"> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Where should my website be hosted? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                  <p>We host our clients website at Godaddy hosting server. we can also host in server if you want but you have to pay for it.</p>
+                </div>
+              </li>
+
+              <li data-aos="flip-right" data-aos-delay="400">
+                <img src="{{asset('assets/img/faq.png')}}" class="img-fluid icon-help"> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Will my website be mobile-friendly? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                  <p>Absolutely! More than ever, having a mobile-friendly website is essential! We put a lot of effort into making sure your website looks fantastic on a number of devices.</p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-title">
