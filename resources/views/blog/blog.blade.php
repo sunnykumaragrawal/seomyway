@@ -179,6 +179,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('seo.robotstxt')}}">Read More</a></div>
           </article>
         </div>
+        <div class="col-md-6 allblogs-item filter-seotools">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.websiteranking')}}"><img src="{{asset('assets/img/blog/thumbnail/website-rank-checker-tools.png')}}" alt="Free tools to check website rank" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('blog.websiteranking')}}">Free tools to check website rank</a></h2>
+            <div class="allblogs-btn"><a href="{{route('blog.websiteranking')}}">Read More</a></div>
+          </article>
+        </div>
       </div>
   	</div>
   </section>

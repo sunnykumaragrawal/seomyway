@@ -120,6 +120,10 @@ Route::get('/blog/web-page-speed-test', function () {
     return view('blog.onpage.pagespeedtools');
 })->name('blog.pagespeedtools');
 
+Route::get('/blog/website-rank-checker-tools', function () {
+    return view('blog.tools.websiterank');
+})->name('blog.websiteranking');
+
 // Search operators blogs
 Route::get('/blog/google-search-operators', function () {
     return view('blog.basic.searchoperators');

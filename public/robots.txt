@@ -68,3 +68,5 @@ Disallow: /assets/img/blog/backlink/cba/1.PNG
 Disallow: /assets/img/blog/backlink/cba/1.2.PNG
 Disallow: /assets/img/blog/backlink/cba/2.PNG
 Disallow: /assets/img/blog/backlink/cba/2.2.PNG
+Disallow: /assets/img/blog/rankchecker/1.PNG
+Disallow: /assets/img/blog/rankchecker/2.PNG
