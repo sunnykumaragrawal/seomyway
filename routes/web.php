@@ -90,11 +90,11 @@ Route::get('/blog/how-to-do-keyword-research', function () {
 
 // Title tag and meta tags blogs
 Route::get('/blog/tips-for-writing-title-tag', function () {
-    return view('blog.onpage.tips-write-title');
+    return view('blog.metatags.tips-write-title');
 })->name('blog.tipswritetitle');
 
 Route::get('/blog/common-mistakes-in-title-tag', function () {
-    return view('blog.onpage.common-mistake-while-writing-title-tag-seo');
+    return view('blog.metatags.common-mistake-while-writing-title-tag-seo');
 })->name('blog.commonmistakeseotitle');
 
 Route::get('/blog/meta-tags-for-seo', function () {
@@ -104,6 +104,10 @@ Route::get('/blog/meta-tags-for-seo', function () {
 Route::get('/blog/meta-robots-tag', function () {
     return view('blog.metatags.robotstags');
 })->name('blog.metarobotstags');
+
+Route::get('/blog/canonical-tag-in-seo', function () {
+    return view('blog.metatags.canonical');
+})->name('blog.canonicaltag');
 
 // Ranking factors blogs
 Route::get('/blog/seo-ranking-factors', function () {

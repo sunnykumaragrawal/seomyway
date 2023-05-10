@@ -646,11 +646,15 @@ section{
   top: 0;
 }
 
+.price-item h3 span{
+  font-size: 16px !important;
+}
+
 .price-item h4 {
   font-size: 32px;
   color: #691999;
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 

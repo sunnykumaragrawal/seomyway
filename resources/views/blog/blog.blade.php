@@ -186,6 +186,13 @@ seo blogs,
             <div class="allblogs-btn"><a href="{{route('blog.websiteranking')}}">Read More</a></div>
           </article>
         </div>
+        <div class="col-md-6 allblogs-item filter-title">
+          <article class="allblogs-block">
+            <div class="allblogs-img"><a href="{{route('blog.canonicaltag')}}"><img src="{{asset('assets/img/blog/thumbnail/canonical-tag.png')}}" alt="How to use canonical tag in seo" class="img-fluid"></a></div>
+            <h2 class="allblogs-title"><a href="{{route('blog.canonicaltag')}}">How to use canonical tag in seo</a></h2>
+            <div class="allblogs-btn"><a href="{{route('blog.canonicaltag')}}">Read More</a></div>
+          </article>
+        </div>
       </div>
   	</div>
   </section>
