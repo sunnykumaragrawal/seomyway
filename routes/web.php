@@ -154,3 +154,7 @@ Route::get('/templates/packers-movers/demo3', function () {
 Route::get('/templates/packers-movers/demo4', function () {
     return view('packers.demo4');
 })->name('packer.demo4');
+
+Route::get('/packers-movers/mrshifting', function () {
+    return view('mrshifting.index');
+})->name('mrshifting.home');
