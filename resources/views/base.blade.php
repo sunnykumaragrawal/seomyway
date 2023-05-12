@@ -28,7 +28,6 @@
         <ul>
           <li class="active"><a href="/#hero">Home</a></li>
           <li><a href="/#about">About</a></li>
-          <li><a href="/#whyus">Why</a></li>
           <li><a href="/#services">Services</a></li>
           <li><a href="/blog">Blogs</a></li>
           <li><a href="/templates/packers-movers">Templates</a></li>

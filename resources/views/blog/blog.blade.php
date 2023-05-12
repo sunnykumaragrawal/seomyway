@@ -14,6 +14,22 @@ seo blogs,
 
 @section('content')
 <main class="section-bg">
+  <section id="breadcrumbs" class="breadcrumbs">
+    <div class="breadcrumb-hero">
+      <div class="container">
+        <div class="breadcrumb-hero">
+          <h1>BEST SEO BLOGS</h1>
+          <p>Here we are sharing our experience & knowledge related to seo. You can read our top seo blogs to improve your seo skills.</p>
+        </div>
+        <div class="row">
+          <ol>
+            <li><a href="{{route('home')}}">Home</a></li>
+            <li><a href="{{route('allblogs')}}">Blogs</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="allblogs">
   	<div class="container">
       <div class="row">

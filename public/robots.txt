@@ -4,14 +4,6 @@ Disallow: /assets/img/contact/icon2.png
 Disallow: /assets/img/service/web-design.png
 Disallow: /assets/img/service/web-development.png
 Disallow: /assets/img/service/site-optimization.png
-Disallow: /assets/img/whyus/experience.png
-Disallow: /assets/img/whyus/passionate.png
-Disallow: /assets/img/nav/about.png
-Disallow: /assets/img/nav/blog.png
-Disallow: /assets/img/nav/contact.png
-Disallow: /assets/img/nav/service.png
-Disallow: /assets/img/mail.png
-Disallow: /assets/img/phone-call.png
 Disallow: /assets/img/arrow.png
 Disallow: /assets/img/whatsapp.png
 Disallow: /assets/img/blog/keyword/gkp/1.PNG

@@ -121,25 +121,6 @@ a:hover {
 }
 
 /* Mobile Navigation */
-.mobile-nav-toggle {
-  position: fixed;
-  right: 15px;
-  top: 20px;
-  z-index: 9998;
-  border: 0;
-  background: none;
-  font-size: 24px;
-  transition: all 0.4s;
-  outline: none !important;
-  line-height: 1;
-  cursor: pointer;
-  text-align: right;
-}
-
-.mobile-nav-toggle i {
-  color: #fff;
-}
-
 .mobile-nav {
   position: fixed;
   top: 55px;
@@ -152,7 +133,7 @@ a:hover {
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
+  border-radius: 0;
   padding: 10px 0;
 }
 
@@ -167,13 +148,16 @@ a:hover {
   position: relative;
   color: #354144;
   padding: 10px 20px;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 22px;
   outline: none;
+  text-align: center;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #fff;
   text-decoration: none;
+  background-color: #691999;
+  color: #fff;
 }
 
 .mobile-nav-overly {
@@ -183,9 +167,9 @@ a:hover {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(31, 38, 39, 0.6);
   overflow: hidden;
   display: none;
+  background-color: #691999;
   transition: ease-in-out 0.2s;
 }
 
@@ -196,6 +180,25 @@ a:hover {
 .mobile-nav-active .mobile-nav {
   opacity: 1;
   visibility: visible;
+}
+
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 28px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+
+.mobile-nav-toggle i {
+  color: #fff;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -312,6 +315,8 @@ a:hover {
     font-size: 22px;
     width: 100%;
   }
+
+
 }
 
 @media(min-width: 992px){
@@ -470,102 +475,6 @@ section{
   .about-content h3{
     font-size: 32px;
   }
-}
-
-/*--------------------------------------------------------------
-# Why us
---------------------------------------------------------------*/
-.whyus-item{
-  background-color: #fff;
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  border: 2px solid #691999;
-  margin-bottom: 25px;
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.35);
-  transition: all 0.4s ease-in-out;
-}
-
-.whyus-item .whyus-icon{
-  width: 110px;
-  height: 110px;
-  padding: 20px;
-  margin: 0 auto 20px;
-  border-radius: 50%;
-  border: 2px solid #691999;
-  background-color: #fff;
-  transition: all 0.4s ease-in-out;
-}
-
-.whyus-item:hover{
-  margin-top: 65px;
-  background-color: #691999;
-  color: #fff;
-}
-
-.whyus-item:hover .whyus-icon{
-  margin: -65px auto 20px;
-}
-
-.whyus-item .whyus-icon img{
-  max-height: 70px;
-}
-
-.whyus-item .whyus-content h5{
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.whyus-carousel .owl-item {
-  float: left;
-}
-
-@media(min-width: 992px){
-  .whyus-item{
-    margin-left: calc(-50% - 10px);
-    width: 100%;
-  }
-}
-
-.whyus-carousel .center .whyus-item{
-  background-color: #691999;
-  color: #fff;
-}
-
-.whyus-carousel{
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 110px;
-}
-
-.whyus-carousel .owl-nav{
-}
-
-.whyus-carousel .owl-nav .owl-prev{
-  position: absolute;
-  left: calc(50% - 55px);
-  bottom: 0;
-}
-
-.whyus-carousel .owl-nav .owl-next{
-  position: absolute;
-  right: calc(50% - 55px);
-  bottom: 0;
-}
-
-.whyus-carousel .owl-nav .owl-prev,
-.whyus-carousel .owl-nav .owl-next{
-  background-color: #691999;
-  width: 50px;
-  height: 50px;
-  color: #fff;
-  font-size: 32px;
-  font-weight: bold;
-  border-radius: 50%;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /*--------------------------------------------------------------

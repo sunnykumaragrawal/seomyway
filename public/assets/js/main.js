@@ -185,29 +185,6 @@
     }
   });
 
-  // why us carousel (uses the Owl Carousel library)
-  $('.whyus-carousel').owlCarousel({
-    autoplay: true,
-    loop: true,
-    margin: 20,
-    dots: false,
-    nav: true,
-    smartSpeed: 1000,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 1
-      },
-      900: {
-        center: true,
-        items: 2
-      }
-    }
-  });
-
   // All Blogs carousel (uses the Owl Carousel library)
   $('.allblogs-carousel').owlCarousel({
     autoplay: true,

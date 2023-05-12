@@ -76,32 +76,6 @@ seo services,
       </div>
     </div>
   </section>
-  <section id="whyus" class="whyus">
-    <div class="container">
-      <div class="section-title">
-        <h2>Why Us</h2>  
-      </div>
-
-      <div class="whyus-carousel owl-theme">
-        <div class="whyus-block">
-          <div class="whyus-item">
-            <div class="whyus-icon"><img src="{{asset('assets/img/whyus/passionate.png')}}" class="img-fluid" alt="Passionate"></div>
-            <div class="whyus-content">
-              <h5>Passionate</h5>
-            </div>
-          </div>
-        </div>
-        <div class="whyus-block">
-          <div class="whyus-item">
-            <div class="whyus-icon"><img src="{{asset('assets/img/whyus/experience.png')}}" class="img-fluid" alt="Experience"></div>
-            <div class="whyus-content">
-              <h5>Experience</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <section id="services" class="services">
     <div class="container">
       <div class="section-title">
