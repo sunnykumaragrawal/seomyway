@@ -46,7 +46,7 @@ meta tag,
               <div class="single-blogs-steps">
                 <p><b>1. Title Tag:</b> Title tag is the first thing that appears in serps and which can decide your website will be clicked or not by searcher.<br>Title tag is not a direct ranking factor but it can impact your ranking by increasing ctr(click through rate).</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/metatags/title.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/metatags/title.PNG')}}" class="img-fluid" alt="title tag">
                 </div>
                 <div class="visit-link">
                   <a href="{{route('blog.tipswritetitle')}}">Tips for writing title tag</a>
@@ -56,28 +56,28 @@ meta tag,
               <div class="single-blogs-steps">
                 <p><b>2. Meta Description:</b> Serp is the only place where meta description can be seen along with title tag. Although It is not a ranking factor in seo but it attract the searcher and help us to increase clicks on our website.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/metatags/description.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/metatags/description.PNG')}}" class="img-fluid" alt="meta description">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>3. Meta Keywords:</b> Meta keyword tag is not the ranking factor directly or indirectly. There is no use of meta keyword tag for search engine. But we can use this tag to store our keywords for our reference.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/metatags/keywords.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/metatags/keywords.PNG')}}" class="img-fluid" alt="meta keyword">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>4. Meta Robots Tags:</b> Meta robots tags are not the ranking factor but it can create a positive impact of our website in the eyes of search engine. It also helps bots to use their resources and time at the right place. In this way we can help crawlers to crawl our site properly.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/metatags/robots.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/metatags/robots.PNG')}}" class="img-fluid" alt="meta robots tag">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>5. Canonical Meta Tag:</b> Canonical tag is used when a webpage is link by multiple urls in a website or multiple webpages have the similar idea content. In both cases we can tell bots to crawl the right url which we want to rank on serps.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/metatags/canonical.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/metatags/canonical.PNG')}}" class="img-fluid" alt="canonical tag">
                 </div>
                 <div class="visit-link"></div>
               </div>

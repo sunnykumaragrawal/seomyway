@@ -57,11 +57,11 @@ broken link building,
                 </div>
                 <p><b>A. Using keyword search in google:</b> As I am seo blogger I want to find seo blogs website. for that I just need to search "best seo blogs" in google. This will results the websites that write seo articles. In this we can have lots of website in our niche.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/backlink/blb/1.1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/backlink/blb/1.1.PNG')}}" class="img-fluid" alt="keyword search">
                 </div><br><br>
                 <p><b>B. Using "related:" google search operator:</b> With the help of "related:" operator I am fetching the websites that are related to seo blogs websites.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/backlink/blb/1.2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/backlink/blb/1.2.PNG')}}" class="img-fluid" alt="google search operator related">
                 </div>
                 <div class="visit-link"></div>
               </div>
@@ -69,7 +69,7 @@ broken link building,
                 <p><b>2. Find out the resources pages that no longer exist:</b> The next step is to find out the resources pages that have 404 error or no longer exist. You can find these pages by using any tool.</p>
                 <p>Here I have installed a chrome extension to find broken links and 404 error pages. You can also install this extension by click below link.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/backlink/blb/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/backlink/blb/2.PNG')}}" class="img-fluid" alt="broken link checker">
                 </div>
                 <div class="visit-link"><a href="https://chrome.google.com/webstore/detail/website-broken-link-and-4/kkjfobdnekhdpmgomkpeibhlnmcjgian" target="_blank">website broken link and 404 error checker</a></div>
               </div>
@@ -77,7 +77,7 @@ broken link building,
                 <p><b>3. Check the backlinks for each resources page that no longer exist:</b> Once you find the error pages , you have to check backlinks of these resources pages. You can do it by using third-party tool.</p>
                 <p>Here I am using Ahrefs backlink checker to get backlink data.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/backlink/blb/3.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/backlink/blb/3.PNG')}}" class="img-fluid" alt="ahref broken link checker">
                 </div>
                 <div class="visit-link"><a href="https://ahrefs.com/backlink-checker" target="_blank">Backlink Checker</a></div>
               </div>

@@ -49,7 +49,7 @@ keyword rank checker free,
                 <p><b>1. SERPROBOT:</b> This is a free tool to check website ranking. In this tool you can change location, select devices & enter 5 keywords at a time. After submit it will generate the report in which you can see , which webpage of your website is ranking for which keyword.</p>
                 <p>Below link will directly take you on that tool. Here you can use this tool without any login. This tool is absolutely free.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/rankchecker/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/rankchecker/1.PNG')}}" class="img-fluid" alt="serprobot">
                 </div>
                 <div class="visit-link"><a href="https://www.serprobot.com/serp-check" target="_blank">SERPROBOT</a></div>
               </div>
@@ -57,7 +57,7 @@ keyword rank checker free,
                 <p><b>2. FATRANK:</b> This is a free chrome extension to check keyword ranking. After installation you can check website ranking for a keyword on a particular location. In this tool you can change searching location.</p>
                 <p>Below is link to install this extension.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/rankchecker/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/rankchecker/2.PNG')}}" class="img-fluid" alt="fatrankchecker">
                 </div>
                 <div class="visit-link"><a href="https://chrome.google.com/webstore/detail/fatrank/jcnfkjjanbdfabigknbedgkfjkljhbdn" target="_blank">FATRANK</a></div>
               </div>

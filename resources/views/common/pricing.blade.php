@@ -13,32 +13,32 @@
           <div class="price-sections">
             <h5>Main Page Include</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Landing Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">About Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Services</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Staff</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Gallery</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Social Media</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Landing Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">About Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Services</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Staff</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Gallery</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Contact Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Social Media</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Icons</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Favicon</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Icons</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Favicon</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Payment term</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">For 1 year</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">For 1 year</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Delievery Period</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">2-3 days</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">2-3 days</li>
             </ul>
           </div>
         </div>
@@ -51,37 +51,37 @@
           <div class="price-sections">
             <h5>Main Page Include</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Landing Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">About Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Why Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Company Facts</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Services</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Pricing</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Staff</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Gallery</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Faqs</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Social Media</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Landing Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">About Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Why Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Company Facts</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Services</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Pricing</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Staff</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Gallery</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Faqs</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Contact Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Social Media</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Icons</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">favicon</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Icons</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">favicon</li>
               
             </ul>
           </div>
           <div class="price-sections">
             <h5>Payment term</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">For 1 year</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">For 1 year</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Delivery Period</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">3-5 days</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">3-5 days</li>
             </ul>
           </div>
         </div>
@@ -94,49 +94,49 @@
           <div class="price-sections">
             <h5>Main Page Include</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Landing Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">About Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Why Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Company Facts</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Services</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Pricing</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Staff</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Gallery Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Faqs</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Social Media</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Landing Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">About Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Why Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Company Facts</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Services</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Pricing</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Staff</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Gallery Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Faqs</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Contact Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Social Media</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Extra Pages</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">About Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Services</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Pricing</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Staff</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Gallery Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Faqs</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">About Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Services</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Pricing</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Staff</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Gallery Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Faqs</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Contact Us</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Icons</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Images</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">favicon</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Icons</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Images</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">favicon</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Payment term</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">For 1 year</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">For 1 year</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Delivery Period</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">4-6 days</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">4-6 days</li>
             </ul>
           </div>
         </div>
@@ -149,67 +149,67 @@
           <div class="price-sections">
             <h5>Main Page Include</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Landing Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">About Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Why Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Company Facts</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Services Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Pricing</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Blogs</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Team Member</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Gallery Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Faqs</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Form</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Booking Form</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">testimonials</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Social Media</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Landing Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">About Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Why Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Company Facts</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Services Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Pricing</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Blogs</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Team Member</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Gallery Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Faqs</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Contact Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Contact Form</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Booking Form</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">testimonials</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Social Media</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Extra Pages</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">About Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Services Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Pricing</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Blogs</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Team Member</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Gallery Section</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Faqs</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact Us</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Booking Page</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Submit Review</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">About Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Services Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Pricing</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Blogs</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Team Member</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Gallery Section</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Faqs</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Contact Us</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Booking Page</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Submit Review</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Free for you</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Icons</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Images</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">favicon</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Icons</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Images</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">favicon</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Featured Panel</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Admin Panel</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Blogging System</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Contact System</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Review System</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">Booking System</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Admin Panel</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Blogging System</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Contact System</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Review System</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">Booking System</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Payment term</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">For 1 Year</li>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">25% advance</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">For 1 Year</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">25% advance</li>
             </ul>
           </div>
           <div class="price-sections">
             <h5>Delivery</h5>
             <ul>
-              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid">10-15 days</li>
+              <li><img src="{{asset('assets/img/arrow.png')}}" class="img-fluid" alt="pricing-arrow">10-15 days</li>
             </ul>
           </div>
         </div>

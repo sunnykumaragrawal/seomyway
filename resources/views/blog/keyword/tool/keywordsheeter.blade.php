@@ -67,14 +67,14 @@ keyword sheeter,keywordsheeter,keywordsheeter.com,free keyword sheeter,keyword s
               <div class="single-blogs-steps">
                 <p><b>Step: 1</b> Click the "keywordsheeter.com" button to use this tool(You don't need to login here)</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ks/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ks/1.PNG')}}" class="img-fluid" alt="go to keyword sheeter">
                 </div>
                 <div class="visit-link"><a href="https://keywordsheeter.com/" target="_blank">keywordsheeter.com</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 2</b> Here you can select 5 Advanced options to filter results and put your keyword in search box</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ks/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ks/2.PNG')}}" class="img-fluid" alt="select advanced features">
                 </div>
                 <div class="visit-link"></div>
                 </div>
@@ -82,14 +82,14 @@ keyword sheeter,keywordsheeter,keywordsheeter.com,free keyword sheeter,keyword s
               <div class="single-blogs-steps">
                 <p><b>Step: 3</b> Click the "start sheeting" button to generate keyword ideas</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ks/3.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ks/3.PNG')}}" class="img-fluid" alt="start sheeting">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 4</b> Once keywords generated you can click "stop" button and also here you can export these keywords to google keyword planner by clicking "Save to keyword planner" button.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ks/4.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ks/4.PNG')}}" class="img-fluid" alt="stop sheeting">
                 </div>
                 <div class="visit-link"></div>
               </div>

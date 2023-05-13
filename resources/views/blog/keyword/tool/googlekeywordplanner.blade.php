@@ -76,14 +76,14 @@ how to use google keyword planner,
               <div class="single-blogs-steps">
                 <p><b>Step: 1</b> Click the "Go to google keyword planner" button and login with your google account</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/gkp/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/gkp/1.PNG')}}" class="img-fluid" alt="go to keyword planner">
                 </div>
                 <div class="visit-link"><a href="https://ads.google.com/intl/en_in/home/tools/keyword-planner/?subid=in-en-ha-awa-bk-c-s00!o3~EAIaIQobChMI1eqVktr9_QIVXttMAh0GUw5pEAAYASAAEgIhBvD_BwE~130640791410~kwd-58879037234~16857150891~592430220718m--ahpm-0000000130-0000000000&&&gclid=EAIaIQobChMI1eqVktr9_QIVXttMAh0GUw5pEAAYASAAEgIhBvD_BwE&gclsrc=aw.ds" target="_blank">Go to Google Keyword Planner</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 2</b> After login select the option "Discover new keywords"</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/gkp/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/gkp/2.PNG')}}" class="img-fluid" alt="discover new keywords">
                 </div>
                 <div class="visit-link"></div>
                 </div>
@@ -91,14 +91,14 @@ how to use google keyword planner,
               <div class="single-blogs-steps">
                 <p><b>Step: 3</b> Put one or more keywords in search box here.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/gkp/3.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/gkp/3.PNG')}}" class="img-fluid" alt="write your keywords">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 4</b> Here is your result, you can also use advance features and filters to get more accurate results.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/gkp/4.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/gkp/4.PNG')}}" class="img-fluid" alt="keyword result">
                 </div>
                 <div class="visit-link"></div>
               </div>

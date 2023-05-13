@@ -43,35 +43,35 @@ xml sitemap,
               <div class="single-blogs-steps">
                 <p><b>Step1: </b> Go to official website of xml sitemap. Put your website url on search box here and press "START" button.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/sitemap/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/sitemap/1.PNG')}}" class="img-fluid" alt="generate sitemap">
                 </div>
                 <div class="visit-link"><a href="https://www.xml-sitemaps.com/" target="_blank">xml sitemap generator</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step2: </b> Once sitemap generated you can see it by clicking "VIEW SITEMAP DETAILS" button.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/sitemap/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/sitemap/2.PNG')}}" class="img-fluid" alt="view sitemap">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step3: </b> Now sitemap is ready to use, you can download this file by clicking "DOWNLOAD YOUR XML SITEMAP FILE" button.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/sitemap/3.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/sitemap/3.PNG')}}" class="img-fluid" alt="download sitemap">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step4: </b> Upload sitemap for your website in your website root directory. Now go to GOOGLE SEARCH CONSOLE and in sitemaps section enter sitemap url "sitemap.xml" and press "submit" button.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/sitemap/4.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/sitemap/4.PNG')}}" class="img-fluid" alt="upload sitemap">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step5: </b> Paste this url "https://google.com/ping?sitemap=https://yourdomain.com/sitemap" with your domain name in browser and press enter. The sitemap will submit automatically to google.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/sitemap/5.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/sitemap/5.PNG')}}" class="img-fluid" alt="submit sitemap">
                 </div>
                 <div class="visit-link"><a href="https://google.com/ping?sitemap=https://yourdomain.com/sitemap" target="_blank">Submit your sitemap</a></div>
               </div>

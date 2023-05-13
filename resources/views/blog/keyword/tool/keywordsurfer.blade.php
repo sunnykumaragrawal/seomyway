@@ -49,14 +49,14 @@ keyword surfer,
               <div class="single-blogs-steps">
                 <p><b>Step: 1</b> Click the below "Go to keyword surfer" button and here you can click on "Add to chrome". This will automatically add this tool extension to your browser</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ksr/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ksr/1.PNG')}}" class="img-fluid" alt="go to keyword surfer">
                 </div>
                 <div class="visit-link"><a href="https://chrome.google.com/webstore/detail/keyword-surfer/bafijghppfhdpldihckdcadbcobikaca/related?hl=en" target="_blank">Go to Keyword Surfer</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 2</b> Now you can use this tool, for this you have to search a keyword in google search box</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ksr/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ksr/2.PNG')}}" class="img-fluid" alt="use keyword surfer">
                 </div>
                 <div class="visit-link"></div>
                 </div>
@@ -64,21 +64,21 @@ keyword surfer,
               <div class="single-blogs-steps">
                 <p><b>Step: 3</b> Once you searched, the keyword ideas and search volume will show in right side. And other data like monthly traffic on website, word count will show with the search results in left side.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ksr/3.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ksr/3.PNG')}}" class="img-fluid" alt="keyword idea result">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 4</b> To download the report select the keywords that you want to download and then click download icon and select "Download CSV" option. The file will download automatically.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ksr/4.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ksr/4.PNG')}}" class="img-fluid" alt="download report">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 5</b> If you want to check monthly traffic on any website in a particular country, you can check by searching domain name in google search box. The data will show below the domain name. Also some basic info of that domain will show on right side.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ksr/5.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ksr/5.PNG')}}" class="img-fluid" alt="check monthly traffic">
                 </div>
                 <div class="visit-link"></div>
               </div>

@@ -56,21 +56,21 @@ keyword tool io,
               <div class="single-blogs-steps">
                 <p><b>Step: 1</b> Click the below button "Go to keyword tool.io" & You don't need to login here</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ktio/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ktio/1.PNG')}}" class="img-fluid" alt="go to keyword tool io">
                 </div>
                 <div class="visit-link"><a href="https://keywordtool.io/" target="_blank">Go to keyword tool.io</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 2</b> Here you can type your query in search box and choose lots of options here</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ktio/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ktio/2.PNG')}}" class="img-fluid" alt="type your keyword">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 3</b> Here you get result, now you can use filters(click to setting) to get more accurate results</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/ktio/3.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/ktio/3.PNG')}}" class="img-fluid" alt="keyword result">
                 </div>
                 <div class="visit-link"></div>
               </div>

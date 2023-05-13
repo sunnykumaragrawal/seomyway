@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-Competitor Backlink Analysis - Free tools & technique
+Competitor Backlink Analysis - No Paid tools required
 @stop
 
 @section('meta_desc')
@@ -9,13 +9,9 @@ Competitors backlinks are very crucial for us because we also can get backlinks 
 @stop
 
 @section('meta_keywords')
-competitors backlink analysis,
 competitor backlink analysis,
-competitors backlinks analysis,
-competitor backlinks analysis,
+competitor backlink analysis tool,
 competitors backlinks,
-how to check competitors backlinks,
-how to check competitor backlinks,
 check competitors backlinks,
 find competitor backlinks,
 @stop
@@ -36,6 +32,8 @@ find competitor backlinks,
             <div class="single-blog-content">
               <h3>What are competitors backlinks?</h3>
               <p>Competitors backlinks are the links coming from others websites to our competitor website. Competitors backlinks may be quality backlinks or spammy backlinks. We have to focus on only quality backlinks and always ignore spammy links. Because spammy links are harmful for our website & Google may penalize for these links.</p>
+              <p>Secondly, We have to consider those links that are indexed on google. Because unindexed links are not that much useful for us.</p>
+              <p>Also we have to check that from which backlinks our competitor is getting more traffic that backlinks are more important for us.</p>
             </div>
             <div class="single-blog-content">
               <h3>What is competitor backlink analysis?</h3>
@@ -62,11 +60,11 @@ find competitor backlinks,
                 <p><b>1. Find Your Right Competitors:</b> The first step in this process to know who is your right competitor. For this you just need to search your keyword for which you want to rank. After searching you have to copy 3-5 cometitors domain name and paste into a spreadsheet. Remember that the competitors must have high DA , good number of backlinks and less spammy.</p>
                 <p>For example: If we want to rank our blog for keyword "best keyword research tools" then once you searched this keyword, results will show as below. You can choose your top competitors here.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/backlink/cba/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/backlink/cba/1.PNG')}}" class="img-fluid" alt="finding right competitors">
                 </div><br><br>
                 <p>Now you can create spreadsheet and put 3-5 competitors with high DA, good number of backlinks and low spam rate. These metrics is showing along with results because I have installed a chrome extension "keyword everywhere". I have created spreadsheet shown as below:</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/backlink/cba/1.2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/backlink/cba/1.2.PNG')}}" class="img-fluid" alt="competitors report">
                 </div>
                 <div class="visit-link">
                 </div>
@@ -75,11 +73,11 @@ find competitor backlinks,
                 <p><b>2. Check Your Competitor Backlink:</b> After creating first spreadsheet you have to get the list of your competitor backlinks. For this you can use a free tool and export the backlinks list. Remember that in this list you have to consider only relevant and good quality backlinks.</p>
                 <p>For example: If I want to get the backlinks of one of my competitor. for that I will click "show backlinks" option below competitor domain name in serp. This option will only show if you have installed "keyword everywhere". Here you can also export this data in excel sheet.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/backlink/cba/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/backlink/cba/2.PNG')}}" class="img-fluid" alt="check competitors backlinks">
                 </div><br><br>
                 <p>Below sheet I have downloaded from there. In this sheet you can check all backlinks for your that competitor.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/backlink/cba/2.2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/backlink/cba/2.2.PNG')}}" class="img-fluid" alt="competitor backlink report">
                 </div>
                 <div class="sbs-img">
                 </div>
@@ -123,7 +121,7 @@ find competitor backlinks,
     "url": "https://www.facebook.com/sunny.agarwal.395669/"
   },  
   "datePublished": "2023-04-01",
-  "dateModified": "2023-05-03"
+  "dateModified": "2023-05-13"
 }
 </script>
 @endsection

@@ -51,21 +51,21 @@ robots.txt,
               <div class="single-blogs-steps">
                 <p><b>Step1- Create a robots.txt: </b> Create a plain text file "robots.txt" and write instructions for crawlers.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/robotstxt/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/robotstxt/1.PNG')}}" class="img-fluid" alt="creating robots.txt">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step2- Upload your file: </b> Upload this file on server at the root folder of your website.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/robotstxt/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/robotstxt/2.PNG')}}" class="img-fluid" alt="uploading robots.txt">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step3- Test your robots.txt: </b> Navigate to your robots.txt in your browser. for example As my domain name is "sunnyagrawal.in" and the robots.txt location is "sunnyagrawal.in/robots.txt". If this url is available in browser for everyone it means i have uploaded robots.txt file properly.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/robotstxt/3.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/robotstxt/3.PNG')}}" class="img-fluid" alt="testing robots.txt">
                 </div>
                 <div class="visit-link"></div>
               </div>

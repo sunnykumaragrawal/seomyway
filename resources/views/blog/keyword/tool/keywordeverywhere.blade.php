@@ -43,14 +43,14 @@ keyword everywhere,
               <div class="single-blogs-steps">
                 <p><b>Step: 1</b> Click the below "Go to keyword everywhere" button and here you can click on "INSTALL FOR CHROME"</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/kew/1.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/kew/1.PNG')}}" class="img-fluid" alt="go to keyword everywhere">
                 </div>
                 <div class="visit-link"><a href="https://keywordseverywhere.com/" target="_blank">Go to Keyword Everywhere</a></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 2</b> Here you can add this extension by clicking "Add to chrome" button</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/kew/2.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/kew/2.PNG')}}" class="img-fluid" alt="add keyword everywhere extension">
                 </div>
                 <div class="visit-link"></div>
                 </div>
@@ -58,14 +58,14 @@ keyword everywhere,
               <div class="single-blogs-steps">
                 <p><b>Step: 3</b> After adding it you will jump to this screen, here you can read more about this extension.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/kew/3.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/kew/3.PNG')}}" class="img-fluid" alt="keyword everywhere extension installed">
                 </div>
                 <div class="visit-link"></div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>Step: 4</b> Now we can use this extension. we have to search any keyword on google the data will show on the right side.</p>
                 <div class="sbs-img">
-                  <img src="{{asset('assets/img/blog/keyword/kew/4.PNG')}}" class="img-fluid">
+                  <img src="{{asset('assets/img/blog/keyword/kew/4.PNG')}}" class="img-fluid" alt="use keyword everywhere">
                 </div>
                 <div class="visit-link"></div>
               </div>

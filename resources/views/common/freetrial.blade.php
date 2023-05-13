@@ -10,7 +10,7 @@
   	  	</div>
   	  </div>
   	  <div class="col-lg-6 order-lg-2 order-1 ft-right">
-  	  	<img src="{{asset('assets/img/free-trial.png')}}" class="img-fluid">
+  	  	<img src="{{asset('assets/img/free-trial.png')}}" class="img-fluid" alt="Get A Free Trial of website for 30 days">
   	  </div>
   	</div>
   </div>

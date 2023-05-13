@@ -30,7 +30,7 @@ website layout template,
         <div class="col-md-6">
           <div class="template-box">
             <div class="template-img">
-              <img src="{{asset('assets/img/p&m/demos/demo1.jpg')}}" class="img-fluid">
+              <img src="{{asset('assets/img/p&m/demos/demo1.jpg')}}" class="img-fluid" alt="packers movers demo1">
             </div>
             <div class="template-view">
               <a href="{{route('packer.demo1')}}" target="_blank">Live Demo</a>
@@ -40,7 +40,7 @@ website layout template,
         <div class="col-md-6">
           <div class="template-box">
             <div class="template-img">
-              <img src="{{asset('assets/img/p&m/demos/demo3.jpg')}}" class="img-fluid">
+              <img src="{{asset('assets/img/p&m/demos/demo3.jpg')}}" class="img-fluid" alt="packers movers demo3">
             </div>
             <div class="template-view">
               <a href="{{route('packer.demo3')}}" target="_blank">Live Demo</a>
@@ -50,7 +50,7 @@ website layout template,
         <div class="col-md-6">
           <div class="template-box">
             <div class="template-img">
-              <img src="{{asset('assets/img/p&m/demos/demo4.jpg')}}" class="img-fluid">
+              <img src="{{asset('assets/img/p&m/demos/demo4.jpg')}}" class="img-fluid" alt="packers movers demo4">
             </div>
             <div class="template-view">
               <a href="{{route('packer.demo4')}}" target="_blank">Live Demo</a>
@@ -60,7 +60,7 @@ website layout template,
         <div class="col-md-6">
           <div class="template-box">
             <div class="template-img">
-              <img src="{{asset('assets/img/p&m/demos/demo2.jpg')}}" class="img-fluid">
+              <img src="{{asset('assets/img/p&m/demos/demo2.jpg')}}" class="img-fluid" alt="packers movers demo2">
             </div>
             <div class="template-view">
               <a href="{{route('packer.demo2')}}" target="_blank">Live Demo</a>
