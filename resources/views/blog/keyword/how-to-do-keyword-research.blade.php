@@ -61,6 +61,13 @@ how to do keyword research,
                     <li>Trending keywords in your business</li>
                   </ul>
                 </div>
+                <div class="visit-link">
+                  <a href="{{route('tool.googlekeywordplanner')}}" target="_blank">Keyword Planner</a>
+                  <a href="{{route('tool.keywordtoolio')}}" target="_blank">Keyword tool</a>
+                  <a href="{{route('tool.keywordeverywhere')}}" target="_blank">keyword everywhere</a>
+                  <a href="{{route('tool.keywordsheeter')}}" target="_blank">keyword sheeter</a><br><br>
+                  <a href="{{route('tool.keywordsurfer')}}" target="_blank">keyword surfer</a>
+                </div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>2. Analyzing & selecting the right keywords for your website:</b> After collecting the keywords, the next step is to analyze keywords. In this step you have to select the right keywords for your website on the basis of some important factors.</p>

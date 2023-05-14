@@ -51,7 +51,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="https://api.whatsapp.com/send?phone=917770951212" class="whatsapp-logo"><img src="{{asset('assets/img/whatsapp.png')}}" class="img-fluid"></a>
+  <a href="https://api.whatsapp.com/send?phone=917770951212" class="whatsapp-logo"><img src="{{asset('assets/img/whatsapp.png')}}" class="img-fluid" alt="whatsapp us"></a>
 
   <!-- Vendor JS Files -->
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>

@@ -70,7 +70,9 @@ what is seo and how it works,
                   </ul>
                 </div>
                 <div class="visit-link">
-                  <a href="{{route('blog.seoindex')}}">How to manage crawling and indexing with google</a>
+                  <a href="{{route('blog.seoindex')}}" target="_blank">crawling and indexing with google</a>
+                  <a href="{{route('seo.sitemap')}}" target="_blank">xml sitemap</a>
+                  <a href="{{route('seo.robotstxt')}}" target="_blank">robots.txt</a>
                 </div>
               </div>
               <div class="single-blogs-steps">
@@ -99,7 +101,14 @@ what is seo and how it works,
                     <li>Canonical tag</li>
                   </ul>
                 </div>
-                <div class="visit-link"></div>
+                <div class="visit-link">
+                  <a href="{{route('blog.tipswritetitle')}}" target="_blank">Tips for writing title tag</a>
+                  <a href="{{route('blog.commonmistakeseotitle')}}" target="_blank">Common mistakes in title tag</a>
+                  <a href="{{route('blog.metatags')}}" target="_blank">Meta tags</a>
+                  <a href="{{route('blog.metarobotstags')}}" target="_blank">Meta robots tags</a><br><br>
+                  <a href="{{route('blog.canonicaltag')}}" target="_blank">Canonical tag</a>
+                  <a href="{{route('blog.pagespeedtools')}}" target="_blank">Page speed test</a>
+                </div>
               </div>
               <div class="single-blogs-steps">
                 <p><b>4. Keyword research & content writing:</b> Content is the backbone of any website. Useful , Answerable and quality content can help us to achieve great user experience. But we cann't achieve this without keyword research. So before any content writing we should have a proper strategy for keyword research.</p>
@@ -129,7 +138,9 @@ what is seo and how it works,
                   </ul>
                 </div>
                 <div class="visit-link">
-                  <a href="{{route('backlink.howcreate')}}">How to create backlinks for my website?</a>
+                  <a href="{{route('backlink.howcreate')}}" target="_blank">How to create backlinks for my website?</a>
+                  <a href="{{route('backlink.competitors')}}" target="_blank">Competitors backlinks</a>
+                  <a href="{{route('backlink.brokenlinks')}}" target="_blank">Broken Backlink building</a>
                 </div>
               </div>
               <div class="single-blogs-steps">
